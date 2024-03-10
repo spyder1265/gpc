@@ -8,17 +8,18 @@ export default function Home() {
     <main className='h-screen w-full'>
       <section className='relative h-full w-full'>
         <Image
-          src={"/img/bg.jpg"}
+          src={"/img/trialbg.jpeg"}
           width={900}
           height={900}
           className='w-full h-full object-cover'
+          quality={90}
           alt='bg'
         />
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>
             <Navbar />
           </div>
-          <div className='md:py-24 py-4 px-6 md:px-16 w-full'>
+          <div className='md:py-24 py-12 px-6 md:px-16 w-full'>
             <div className='flex flex-col gap-y-1 items-start justify-center text-left h-full'>
               <h1 className='text-3xl md:text-6xl font-bold'>
                 You are welcome here.
