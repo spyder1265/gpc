@@ -62,18 +62,49 @@ export default function Home() {
           </div>
         </div>
         <div className='flex h-1/2 w-full bg-overlay'>
-          <div className='w-full flex items-center justify-center text-white'>
+          <div className='w-full flex gap-36 items-center justify-center text-white'>
             <a href='#' className=''>
-              <ClockIcon className='h-12 w-12' />
+              <div className='flex flex-col items-center gap-3'>
+                <ClockIcon className='h-14 w-14' />
+                <div className='flex flex-col items-center'>
+                  <h1 className='text-lg font-bold mb-2'>Worship Service</h1>
+                  <p className='max-w-[300px] text-center'>
+                    Join us at 10am on Sundays in person or online on YouTube. 
+                  </p>
+                </div>
+              </div>
             </a>
             <a href='#' className=''>
-              <MapPinIcon className='h-12 w-12' />
+              <div className='flex flex-col items-center gap-3'>
+                <MapPinIcon className='h-14 w-14' />
+                <div className='flex flex-col items-center'>
+                  <h1 className='text-lg font-bold mb-2'>Location</h1>
+                  <p className='max-w-[340px] text-center'>
+                    21400 International Blvd. SeaTac, WA 98198
+                  </p>
+                </div>
+              </div>
             </a>
             <a href='#' className=''>
-              <ExclamationCircleIcon className='h-12 w-12' />
+              <div className='flex flex-col items-center gap-3'>
+                <ExclamationCircleIcon className='h-14 w-14' />
+                <div className='flex flex-col items-center'>
+                  <h1 className='text-lg font-bold mb-2'>I'm New Here</h1>
+                  <p className='max-w-[300px] text-center'>
+                    Helpful info for visitors
+                  </p>
+                </div>
+              </div>
             </a>
           </div>
         </div>
+      </section>
+      <section className='flex flex-col w-full h-screen items-center justify-center'>
+        <div className="">
+
+        </div>
+        <h1 className='font-bold text-4xl text-yellowShade'>Upcoming Events</h1>
+        <p>Mark your calendars for these great events coming up.</p>
       </section>
     </main>
   );
