@@ -32,7 +32,7 @@ export default function About() {
         <div className='flex h-14 w-full bg-yellowShade/80 justify-center items-center overflow-hidden relative'>
           <div className='flex text-white text-bolder'>
             <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='#'>
+              <a href='/about'>
               About Us
               </a>
             </div>
@@ -59,7 +59,7 @@ export default function About() {
             <div className='flex h-full basis-4/6'>
               <div className='flex flex-col py-4 justify-center text-center md:py-24 space-y-1 text-yellowShade'>
                 <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb tracking-normal'>
-                  Welcome to Jesus Christ Salt & Light Church!
+                  Welcome to Grace Pavilion Chapel!
                 </p>
                 <span className='flex justify-center mb-4 md:text-[18px] font-semibold'>
                   Who We Are
