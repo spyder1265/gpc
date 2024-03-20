@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar';
 import Image from "next/image";
 
 
-export default function About() {
+export default function OurTeam() {
   return (
     <main className='h-screen w-full'>
       <section className='relative h-[500px] w-full'>
@@ -21,7 +21,7 @@ export default function About() {
           <div className='md:py-24 py-12 px-6 md:px-16 w-full'>
             <div className='flex flex-col gap-y-1 items-start justify-center text-left h-full'>
               <h1 className='text-3xl md:text-5xl font-bold'>
-                About
+                Our Team
               </h1>
             </div>
           </div>
@@ -58,15 +58,15 @@ export default function About() {
       <section className='flex flex-col w-full items-center justify-center'>
             <div className='flex h-full basis-4/6'>
               <div className='flex flex-col py-4 justify-center text-center md:py-24 space-y-1 text-yellowShade'>
-                <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb-4 tracking-normal'>
-                  Welcome to Grace Pavilion Chapel!
+                <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb tracking-normal'>
+                  Meet Our Team!
                 </p>
-                <span className='flex justify-center mb-4 md:text-[18px] font-semibold'>
+                {/* <span className='flex justify-center mb-4 md:text-[18px] font-semibold'>
                   Who We Are
                 </span>
                 <p className='flex mb-3 tracking-normal lg:px-32 px-0 text-black'>
                   We're so glad you found us! We are a community of followers of Jesus who believe that the greatest thing in the Kingdom is right relationship; first with God and then with one another (Matthew 22:36-40). We are learning together as we grow in love and obedience in serving Him here and around the world. We'd be excited to have you join us!
-                </p>
+                </p> */}
               </div>
             </div>
       </section>

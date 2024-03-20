@@ -21,7 +21,7 @@ export default function About() {
           <div className='md:py-24 py-12 px-6 md:px-16 w-full'>
             <div className='flex flex-col gap-y-1 items-start justify-center text-left h-full'>
               <h1 className='text-3xl md:text-5xl font-bold'>
-                About
+                Our Beliefs
               </h1>
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function About() {
       <section className='flex flex-col w-full items-center justify-center'>
             <div className='flex h-full basis-4/6'>
               <div className='flex flex-col py-4 justify-center text-center md:py-24 space-y-1 text-yellowShade'>
-                <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb-4 tracking-normal'>
+                <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb tracking-normal'>
                   Welcome to Grace Pavilion Chapel!
                 </p>
                 <span className='flex justify-center mb-4 md:text-[18px] font-semibold'>
