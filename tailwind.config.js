@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         overlay: "rgb(30, 56, 56)",
         yellowShade: "#c5b987",
+        yellowActive: "#b1a15e",
       },
     },
   },

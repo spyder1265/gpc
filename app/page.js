@@ -28,7 +28,7 @@ export default function Home() {
                 Come worship with us!
               </h3>
               <a
-                href='#about'
+                href='/about'
                 className='text-center bg-yellowShade hover:opacity-75  rounded-md py-2 px-4 text-lg font-semibold'
               >
                 Learn More
