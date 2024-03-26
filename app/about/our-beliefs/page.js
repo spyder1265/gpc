@@ -56,19 +56,30 @@ export default function About() {
       </section>
 
       <section className='flex flex-col w-full items-center justify-center'>
-            <div className='flex h-full basis-4/6'>
-              <div className='flex flex-col py-4 justify-center text-center md:py-24 space-y-1 text-yellowShade'>
-                <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb tracking-normal'>
-                  Welcome to Grace Pavilion Chapel!
-                </p>
-                <span className='flex justify-center mb-4 md:text-[18px] font-semibold'>
-                  Who We Are
-                </span>
-                <p className='flex mb-3 tracking-normal lg:px-32 px-0 text-black'>
-                  We're so glad you found us! We are a community of followers of Jesus who believe that the greatest thing in the Kingdom is right relationship; first with God and then with one another (Matthew 22:36-40). We are learning together as we grow in love and obedience in serving Him here and around the world. We'd be excited to have you join us!
-                </p>
-              </div>
-            </div>
+        <div className='flex flex-col h-full basis-4/6'>
+          <div className='flex pb-16 justify-center text-center md:pt-24 space-y-1 text-yellowShade'>
+            <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb tracking-normal'>
+              Our Beliefs
+            </p>
+          </div>
+          <div className='flex flex-col text-left mx-80 gap-5 text-lg'>
+            <p>
+              The Bible is God's Word, perfect (Prov. 30:5), loving (John 3:16) and truthful (John 17:17). It is absolutely unique (Heb 4:12/ 2 Tim. 3:16-17).
+            </p>
+            <p>
+              There is one God (Deut. 6:4/Mark 12:29), besides Him there is no other (2 Sam 7:22). He is eternal (1 Tim 1:17) and His life is expressed in three equal, unified persons: Father, Son, and Holy Spirit (Matt. 28:19).
+            </p>
+            <p>
+              Jesus is God in the flesh (John 1:1-2, 14/Col. 1:15-22/Col. 2:9). He lived a perfect, sinless life (Heb 4:15) and sacrified that life on the Cross that we might live free (John 8:36) and forgiven (Rom 8:1/John 10:10).
+            </p>
+            <p>
+              It is by grace meaning an unmerited gift, that we are saved through faith in Jesus Christ (Acts 4:12/Eph 2:8,9). And with salvation comes a new life (2 Cor 5:17), a new heart (Ezek. 36:36, 37) and a new mind (Rom. 12:1, 2/1 Cor 2:16).
+            </p>
+            <p>
+              The greatest thing in the Kingdom of our Lord and Savior is relationship, first with God and then with one another (Matt. 22:36-40). The Church is the Body of Christ (1 Cor. 12:27) where we learn how to live out the love of God (Rom. 12:9-10) and extend it to the world (Matt. 28:18-20).
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   );
