@@ -61,12 +61,6 @@ export default function About() {
                 <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb-4 tracking-normal'>
                   Welcome to Grace Pavilion Chapel!
                 </p>
-                {/* <span className='flex justify-center mb-4 md:text-[18px] font-semibold'>
-                  Who We Are
-                </span>
-                <p className='flex mb-3 tracking-normal lg:px-32 px-0 text-black'>
-                  We're so glad you found us! We are a community of followers of Jesus who believe that the greatest thing in the Kingdom is right relationship; first with God and then with one another (Matthew 22:36-40). We are learning together as we grow in love and obedience in serving Him here and around the world. We'd be excited to have you join us!
-                </p> */}
               </div>
               <div className='flex flex-col text-left mx-80 gap-5'>
                 <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>Who We Are</h1>
