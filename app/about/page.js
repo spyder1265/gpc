@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Image from "next/image";
-
+import Footer from '@/components/Footer';
 
 export default function About() {
   return (
@@ -89,6 +89,9 @@ export default function About() {
               </div>
             </div>
       </section>
+      <div className='mt-20'>
+        <Footer />
+      </div>
     </main>
   );
 }

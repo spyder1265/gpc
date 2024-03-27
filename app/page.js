@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import { ClockIcon, ExclamationCircleIcon } from "@heroicons/react/24/outline";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -75,6 +76,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className='mt-20'>
+        <Footer />
+      </div>
     </main>
   );
 }

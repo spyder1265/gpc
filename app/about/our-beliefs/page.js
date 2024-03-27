@@ -81,6 +81,9 @@ export default function About() {
           </div>
         </div>
       </section>
+      <div className='mt-20'>
+        <Footer />
+      </div>
     </main>
   );
 }
