@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Image from "next/image";
+import Footer from '@/components/Footer';
 
 
 export default function OurTeam() {
@@ -296,6 +297,9 @@ export default function OurTeam() {
           </div>  
         </div>
       </section>
+      <div className='mt-20'>
+        <Footer />
+      </div>
     </main>
   );
 }
