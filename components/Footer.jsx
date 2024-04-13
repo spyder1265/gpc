@@ -87,7 +87,7 @@ const Footer = () => {
                 </ul> */}
             </div>
         </div>
-        <div class="px-4 py-6 bg-greenActive dark:bg-gray-700 md:flex md:items-center md:justify-between">
+        <div class="px-4 py-6 bg-greenActive md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-100 dark:text-gray-300 sm:text-center">© 2024 <a href="/">GracePavilionChurch™</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
