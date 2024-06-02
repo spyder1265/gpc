@@ -5,12 +5,12 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Events", href: "#" },
-  { name: "Ministries", href: "#" },
-  { name: "Messages", href: "#" },
-  { name: "Give", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Events", href: "/events" },
+  { name: "Ministries", href: "/ministries" },
+  { name: "Messages", href: "/messages" },
+  { name: "Give", href: "/giving" },
   { name: "Serve", href: "#" },
   { name: "Blog", href: "#" },
   { name: "Contact", href: "#" },

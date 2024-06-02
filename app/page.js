@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import { ClockIcon, ExclamationCircleIcon } from "@heroicons/react/24/outline";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
                 Come worship with us!
               </h3>
               <a
-                href='#about'
+                href='/about'
                 className='text-center bg-yellowShade hover:opacity-75  rounded-md py-2 px-4 text-lg font-semibold'
               >
                 Learn More
@@ -106,6 +107,10 @@ export default function Home() {
         <h1 className='font-bold text-4xl text-yellowShade'>Upcoming Events</h1>
         <p>Mark your calendars for these great events coming up.</p>
       </section>
+      
+      <div className='mt-20'>
+        <Footer />
+      </div>
     </main>
   );
 }
