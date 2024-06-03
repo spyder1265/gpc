@@ -101,15 +101,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* <section className='flex flex-col w-full h-screen items-center justify-center'>
-        <div className="">
-
-        </div>
+      <section className='flex flex-col w-full h-screen items-center justify-center'>
+        <div className=''></div>
         <h1 className='font-bold text-4xl text-yellowShade'>Upcoming Events</h1>
         <p>Mark your calendars for these great events coming up.</p>
-      </section> */}
+      </section>
 
-      <div className='mt-2'>
+      <div className='mt-20'>
         <Footer />
       </div>
     </main>

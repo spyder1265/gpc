@@ -35,12 +35,15 @@ export default function About() {
             </div>
             <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
               <a href='/about/our-team'>Our Team</a>
-            </div>
-            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about/im-new'>I'm New</a>
-            </div>
-            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about/our-beliefs'>Our Beliefs</a>
+              <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
+                <a href='/about/our-team'>Our Team</a>
+              </div>
+              <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
+                <a href='/about/im-new'>I'm New</a>
+              </div>
+              <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
+                <a href='/about/our-beliefs'>Our Beliefs</a>
+              </div>
             </div>
           </div>
         </div>
