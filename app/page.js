@@ -1,8 +1,8 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../components/Navbar";
 import { ClockIcon, ExclamationCircleIcon } from "@heroicons/react/24/outline";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-import Footer from "@/components/Footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
           className='w-full h-full object-cover'
           quality={90}
           alt='bg'
+          priority
         />
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>

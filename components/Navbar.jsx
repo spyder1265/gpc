@@ -1,26 +1,29 @@
 "use client";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-
-const navigation = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Events", href: "/events" },
-  { name: "Ministries", href: "/ministries" },
-  { name: "Messages", href: "/messages" },
-  { name: "Give", href: "/giving" },
-  { name: "Serve", href: "#" },
-  { name: "Blog", href: "#" },
-  { name: "Contact", href: "#" },
-];
+import { usePathname } from "next/navigation";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function Navbar() {
+  const pathname = usePathname();
+  const navigation = [
+    { name: "Home", href: "/", current: pathname === "/" },
+    { name: "About", href: "/about", current: pathname.includes("/about") },
+    { name: "Events", href: "/events", current: pathname === "/events" },
+    {
+      name: "Ministries",
+      href: "/ministries",
+      current: pathname === "/ministries",
+    },
+    { name: "Messages", href: "/messages", current: pathname === "/messages" },
+    { name: "Give", href: "/giving", current: pathname === "/give" },
+    { name: "Contact", href: "/contact", current: pathname === "/contact" },
+  ];
+
   return (
     <Disclosure as='nav' className='bg-transparent relative h-auto py-8'>
       {({ open }) => (
@@ -48,7 +51,7 @@ export default function Navbar() {
                         className={classNames(
                           item.current
                             ? "text-white"
-                            : "text-gray-300 hover:opacity-75",
+                            : "text-neutral-300 hover:opacity-75",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -60,7 +63,7 @@ export default function Navbar() {
                 </div>
                 <div className='absolute inset-y-0 right-0 flex items-center lg:hidden'>
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className='relative inline-flex items-center justify-center rounded-md p-2 text-gray-300 font-semibold hover:opacity-75 focus:outline-none focus:ring-0'>
+                  <Disclosure.Button className='relative inline-flex items-center justify-center rounded-md p-2 text-neutral-300 font-semibold hover:opacity-75 focus:outline-none focus:ring-0'>
                     <span className='absolute -inset-0.5' />
                     <span className='sr-only'>Open main menu</span>
                     {open ? (
@@ -90,7 +93,7 @@ export default function Navbar() {
                   className={classNames(
                     item.current
                       ? "text-white"
-                      : "text-gray-300 hover:opacity-75",
+                      : "text-neutral-300 hover:opacity-75",
                     "block rounded-md px-3 py-2 text-base font-semibold"
                   )}
                   aria-current={item.current ? "page" : undefined}

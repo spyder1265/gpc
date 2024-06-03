@@ -1,6 +1,6 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../../../components/Navbar";
 import Image from "next/image";
-import Footer from "@/components/Footer";
+import Footer from "../../../components/Footer";
 
 export default function About() {
   return (
@@ -13,6 +13,7 @@ export default function About() {
           className='w-full h-full object-cover'
           quality={90}
           alt='bg'
+          priority
         />
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>
@@ -29,9 +30,9 @@ export default function About() {
       <section className='flex flex-col w-full items-center justify-center'>
         <div className='flex h-14 w-full bg-yellowShade/80 justify-center overflow-hidden relative'>
           <div className='flex text-white font-semibold'>
-            <div className='hover:bg-yellowShade h-full flex items-center  active:bg-yellowActive'>
-              <a href='/about' className='py-4 h-full px-2'>
-                About Us
+            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
+              <a href='/about'>
+              About Us
               </a>
             </div>
             <div className='hover:bg-yellowShade h-full flex items-center  active:bg-yellowActive'>
@@ -60,7 +61,7 @@ export default function About() {
               Our Beliefs
             </p>
           </div>
-          <div className='flex flex-col text-left mx-80 gap-5 text-lg'>
+          <div className='flex flex-col text-left mx-80 gap-5 text-lg dark:text-neutral-300'>
             <p>
               The Bible is God's Word, perfect (Prov. 30:5), loving (John 3:16)
               and truthful (John 17:17). It is absolutely unique (Heb 4:12/ 2
