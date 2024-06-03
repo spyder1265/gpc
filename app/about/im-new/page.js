@@ -28,7 +28,7 @@ export default function About() {
       </section>
 
       <section className='flex flex-col w-full items-center justify-center'>
-        <div className='flex h-14 w-full bg-yellowShade/80 justify-center items-center overflow-hidden relative'>
+        <div className='flex h-14 w-full bg-yellowShade/80 justify-center overflow-hidden relative'>
           <div className='flex text-white font-semibold'>
             <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
               <a href='/about'>About Us</a>
@@ -48,7 +48,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       <section className='text-neutral-500 dark:text-neutral-400'>
         <div className='py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6'>
           <h2 className='mb-8 text-4xl tracking-tight font-extrabold text-yellowShade'>
