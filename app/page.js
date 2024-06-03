@@ -1,8 +1,8 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../../components/Navbar";
 import { ClockIcon, ExclamationCircleIcon } from "@heroicons/react/24/outline";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-import Footer from "@/components/Footer";
+import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
