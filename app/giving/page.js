@@ -33,6 +33,7 @@ export default function Giving() {
         md:text-5xl
         font-bold
         container
+        ml-6
         md:ml-16
         md:my-4
         '

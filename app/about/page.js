@@ -59,7 +59,7 @@ export default function About() {
               Welcome to Grace Pavilion Chapel!
             </p>
           </div>
-          <div className='flex flex-col text-left mx-80 gap-5'>
+          <div className='flex flex-col text-left mx-10 md:mx-80 gap-5'>
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>
               Who We Are
             </h1>

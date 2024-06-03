@@ -78,9 +78,9 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className='mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white'>
+            {/* <h2 className='mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white'>
               Ministries
-            </h2>
+            </h2> */}
           </div>
         </div>
         <div className='px-4 py-6 bg-greenActive dark:bg-gray-700 md:flex md:items-center md:justify-between'>

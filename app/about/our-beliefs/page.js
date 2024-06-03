@@ -28,27 +28,19 @@ export default function About() {
       </section>
 
       <section className='flex flex-col w-full items-center justify-center'>
-        <div className='flex h-14 w-full bg-yellowShade/80 justify-center overflow-hidden relative'>
+        <div className='flex h-14 w-full bg-yellowShade/80 justify-center items-center overflow-hidden relative'>
           <div className='flex text-white font-semibold'>
             <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about'>
-              About Us
-              </a>
+              <a href='/about'>About Us</a>
             </div>
-            <div className='hover:bg-yellowShade h-full flex items-center  active:bg-yellowActive'>
-              <a href='/about/our-team' className='py-4 h-full px-2'>
-                Our Team
-              </a>
+            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
+              <a href='/about/our-team'>Our Team</a>
             </div>
-            <div className='hover:bg-yellowShade h-full flex items-center  active:bg-yellowActive'>
-              <a href='/about/im-new' className='py-4 h-full px-2'>
-                I'm New
-              </a>
+            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
+              <a href='/about/im-new'>I'm New</a>
             </div>
-            <div className='hover:bg-yellowShade h-full flex items-center active:bg-yellowActive'>
-              <a href='/about/our-beliefs' className='py-4 h-full px-2'>
-                Our Beliefs
-              </a>
+            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
+              <a href='/about/our-beliefs'>Our Beliefs</a>
             </div>
           </div>
         </div>
@@ -56,12 +48,12 @@ export default function About() {
 
       <section className='flex flex-col w-full items-center justify-center'>
         <div className='flex flex-col h-full basis-4/6'>
-          <div className='flex pb-16 justify-center text-center md:pt-24 space-y-1 text-yellowShade'>
+          <div className='flex md:pb-16 py-4 justify-center text-center md:pt-24 space-y-1 text-yellowShade'>
             <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb tracking-normal'>
               Our Beliefs
             </p>
           </div>
-          <div className='flex flex-col text-left mx-80 gap-5 text-lg dark:text-neutral-300'>
+          <div className='flex flex-col text-left md:mx-80 mx-10 gap-5 text-lg dark:text-neutral-300'>
             <p>
               The Bible is God's Word, perfect (Prov. 30:5), loving (John 3:16)
               and truthful (John 17:17). It is absolutely unique (Heb 4:12/ 2
