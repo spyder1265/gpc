@@ -15,6 +15,7 @@ export default function Home() {
           className='w-full h-full object-cover'
           quality={90}
           alt='bg'
+          priority
         />
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>
@@ -100,15 +101,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='flex flex-col w-full h-screen items-center justify-center'>
+      {/* <section className='flex flex-col w-full h-screen items-center justify-center'>
         <div className="">
 
         </div>
         <h1 className='font-bold text-4xl text-yellowShade'>Upcoming Events</h1>
         <p>Mark your calendars for these great events coming up.</p>
-      </section>
-      
-      <div className='mt-20'>
+      </section> */}
+
+      <div className='mt-2'>
         <Footer />
       </div>
     </main>
