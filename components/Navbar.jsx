@@ -14,13 +14,14 @@ export default function Navbar() {
     { name: "Home", href: "/", current: pathname === "/" },
     { name: "About", href: "/about", current: pathname.includes("/about") },
     { name: "Events", href: "/events", current: pathname === "/events" },
-    {
-      name: "Ministries",
-      href: "/ministries",
-      current: pathname === "/ministries",
-    },
-    { name: "Messages", href: "/messages", current: pathname === "/messages" },
-    { name: "Give", href: "/giving", current: pathname === "/give" },
+    // {
+    //   name: "Ministries",
+    //   href: "/ministries",
+    //   current: pathname === "/ministries",
+    // },
+    // { name: "Messages", href: "/messages", current: pathname === "/messages" },
+    // { name: "Give", href: "/giving", current: pathname === "/give" },
+    { name: "Gallery", href: "/gallery", current: pathname === "/gallery" },
     { name: "Contact", href: "/contact", current: pathname === "/contact" },
   ];
 

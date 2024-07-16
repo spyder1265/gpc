@@ -27,7 +27,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+                <a href='/contact' className='hover:underline'>
                   Contact Us
                 </a>
               </li>
@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <h2 className='mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white'>
               Legal
             </h2>
@@ -76,7 +76,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div>
             {/* <h2 className='mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white'>
               Ministries

@@ -47,100 +47,45 @@ export default function OurTeam() {
       </section>
 
       <section className=''>
-        <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
+        <div className='py-8 px-4 mx-auto flex flex-col items-center w-full max-w-screen-xl text-center lg:py-16 lg:px-6'>
           <div className='mx-auto mb-8 max-w-screen-sm lg:mb-16'>
             <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-yellowShade'>
               Meet Our Team!
             </h2>
           </div>
-          <div className='grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-            <div className='text-center text-gray-500'>
+          <div className='grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3'>
+            <div className='text-center flex flex-col items-center text-gray-500'>
               <img
-                className='mx-auto mb-4 w-36 h-36 rounded-full'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
-                alt='Bonnie Avatar'
+                className='mx-auto mb-4 w-36 object-cover h-36 rounded-full'
+                src='/img/Head-Pastor.jpeg'
+                alt='head-pastor'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Bonnie Green</a>
+                <a href='#'>Rev. Theophilus S.D Alvin</a>
               </h3>
               <p className='dark:text-neutral-300'>Head Pastor</p>
             </div>
-            <div className='text-center text-gray-500'>
+            <div className='text-center flex flex-col items-center text-gray-500'>
               <img
-                className='mx-auto mb-4 w-36 h-36 rounded-full'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png'
+                className='mx-auto mb-4 w-36 h-36 object-cover object-right rounded-full'
+                src='/img/pastor2.jpeg'
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Helene Engels</a>
-              </h3>
-              <p className='dark:text-neutral-300'>Dickoness</p>
-            </div>
-            <div className='text-center text-gray-500'>
-              <img
-                className='mx-auto mb-4 w-36 h-36 rounded-full'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png'
-                alt='Jese Avatar'
-              />
-              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Jese Leos</a>
+                <a href='#'>Wonder Hormenu</a>
               </h3>
               <p className='dark:text-neutral-300'>Pastor</p>
             </div>
-            <div className='text-center text-gray-500'>
+            <div className='text-center flex flex-col items-center text-gray-500'>
               <img
-                className='mx-auto mb-4 w-36 h-36 rounded-full'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png'
-                alt='Joseph Avatar'
+                className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
+                src='/img/Pastor.jpeg'
+                alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Joseph Mcfall</a>
+                <a href='#'>Ikechukwu Onwumelu</a>
               </h3>
-              <p className='dark:text-neutral-300'>Reverend</p>
-            </div>
-            <div className='text-center text-gray-500'>
-              <img
-                className='mx-auto mb-4 w-36 h-36 rounded-full'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png'
-                alt='Sofia Avatar'
-              />
-              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Lana Byrd</a>
-              </h3>
-              <p className='dark:text-neutral-300'>Bishop</p>
-            </div>
-            <div className='text-center text-gray-500'>
-              <img
-                className='mx-auto mb-4 w-36 h-36 rounded-full'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png'
-                alt='Leslie Avatar'
-              />
-              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Leslie Livingston</a>
-              </h3>
-              <p className='dark:text-neutral-300'>Welfare</p>
-            </div>
-            <div className='text-center text-gray-500'>
-              <img
-                className='mx-auto mb-4 w-36 h-36 rounded-full'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png'
-                alt='Michael Avatar'
-              />
-              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Michael Gough</a>
-              </h3>
-              <p className='dark:text-neutral-300'>Cash Team</p>
-            </div>
-            <div className='text-center text-gray-500'>
-              <img
-                className='mx-auto mb-4 w-36 h-36 rounded-full'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/neil-sims.png'
-                alt='Neil Avatar'
-              />
-              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Neil Sims</a>
-              </h3>
-              <p className='dark:text-neutral-300'>Usher</p>
+              <p className='dark:text-neutral-300'>Pastor</p>
             </div>
           </div>
         </div>

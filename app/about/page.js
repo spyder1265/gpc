@@ -31,21 +31,21 @@ export default function About() {
         <div className='flex h-14 w-full bg-yellowShade/80 justify-center overflow-hidden relative'>
           <div className='flex text-white font-semibold'>
             <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about'>about us</a>
+              <a href='/about'>About Us</a>
             </div>
             <div className='hover:bg-yellowShade h-full flex items-center  active:bg-yellowActive'>
               <a href='/about/our-team' className='py-4 h-full px-2'>
-                our team
+                Our Team
               </a>
             </div>
             <div className='hover:bg-yellowShade h-full flex items-center  active:bg-yellowActive'>
               <a href='/about/im-new' className='py-4 h-full px-2'>
-                i'm new
+                I'm New
               </a>
             </div>
             <div className='hover:bg-yellowShade h-full flex items-center active:bg-yellowActive'>
               <a href='/about/our-beliefs' className='py-4 h-full px-2'>
-                our beliefs
+                Our Beliefs
               </a>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function About() {
               who we are
             </h1>
             <p className='dark:text-neutral-300'>
-              we're thrilled that you've discovered us! at grace pavilion
+              We're thrilled that you've discovered us! at grace pavilion
               chapel, we are more than just a congregation; we are a vibrant
               community of followers of jesus christ. rooted in the belief that
               the essence of the kingdom lies in fostering genuine
@@ -76,8 +76,7 @@ export default function About() {
               our vision
             </h1>
             <p className='dark:text-neutral-300'>
-              vision statement bringing the blind to the knowledge of christ. (2
-              corinthians 4:4)
+              Bringing the blind to the knowledge of christ. (2 corinthians 4:4)
             </p>
 
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>

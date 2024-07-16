@@ -76,7 +76,7 @@ export default function Home() {
                 </div>
               </div>
             </a>
-            <a href='#' className=''>
+            <a href='/contact' className=''>
               <div className='flex flex-col items-center gap-3'>
                 <MapPinIcon className='h-14 w-14' />
                 <div className='flex flex-col items-center'>
@@ -88,7 +88,7 @@ export default function Home() {
                 </div>
               </div>
             </a>
-            <a href='#' className=''>
+            <a href='/about/im-new' className=''>
               <div className='flex flex-col items-center gap-3'>
                 <ExclamationCircleIcon className='h-14 w-14' />
                 <div className='flex flex-col items-center'>
@@ -108,7 +108,7 @@ export default function Home() {
         <p>Mark your calendars for these great events coming up.</p>
       </section> */}
 
-      <div className='mt-20'>
+      <div className='mt-2'>
         <Footer />
       </div>
     </main>
