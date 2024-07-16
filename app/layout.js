@@ -14,7 +14,7 @@ const meta = {
   image: "/img/logo.jpeg",
   siteName: "Grace Pavilion Church",
   locale: "en_US",
-  ogimage: "https://www.gracepavilionchapel.com/img/flyer.jpeg",
+  ogimage: "https://www.gracepavilionchapel.com/img/logo.jpeg",
   twitter: {
     title: "Grace Pavilion Chapel",
     site: "@GracePavilionChapel",
