@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 const meta = {
-  title: "Jaqis Carport",
+  title: " Grace Pavilion Church",
   description:
     "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
 
@@ -12,7 +12,7 @@ const meta = {
   ogDescription:
     "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
   image: "/img/logo.jpeg",
-  siteName: "Jaqis Carport",
+  siteName: " Grace Pavilion Church",
   locale: "en_US",
   ogimage: "/img/logo.jpeg",
   twitter: {
