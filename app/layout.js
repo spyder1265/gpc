@@ -4,17 +4,17 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 const meta = {
-  title: " Grace Pavilion Church",
+  title: "Grace Pavilion Church",
   description:
-    "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
+    "GRACE PAVILION CHAPEL (GPC) IS A CHARISMATIC MINISTRY BORN OUT OF THE WOMB OF THE HOLY SPIRIT.",
 
   url: "https://gracepavilionchapel.com",
   ogDescription:
     "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
   image: "/img/logo.jpeg",
-  siteName: " Grace Pavilion Church",
+  siteName: "Grace Pavilion Church",
   locale: "en_US",
-  ogimage: "/img/logo.jpeg",
+  ogimage: "/img/flyer.jpeg",
   twitter: {
     title: "Grace Pavilion Chapel",
     site: "@GracePavilionChapel",
@@ -25,7 +25,7 @@ const meta = {
 export const metadata = {
   title: "Grace Pavilion Chapel",
   description:
-    "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
+    "GRACE PAVILION CHAPEL (GPC) IS A CHARISMATIC MINISTRY BORN OUT OF THE WOMB OF THE HOLY SPIRIT.",
   metadataBase: new URL("https:/gracepavilionchapel.com/"),
   alternates: {
     canonical: `https://gracepavilionchapel.com/`,
@@ -36,11 +36,11 @@ export const metadata = {
     url: meta.url,
     type: "website",
     images: meta.ogimage,
-    siteName: " Grace Pavilion Church",
+    siteName: "Grace Pavilion Church",
     locale: "en_US",
   },
   twitter: {
-    title: " Grace Pavilion Church",
+    title: "Grace Pavilion Church",
     description: meta.description,
     images: meta.ogimage,
     card: "summary_large_image",
