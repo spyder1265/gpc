@@ -3,6 +3,39 @@ import Image from "next/image";
 import Footer from "../../components/Footer";
 
 export default function Events() {
+  const events = [
+    {
+      title: "Spiritual Maintenance Service",
+      time: "Wednesdays | 9:00 - 11:30 AM | @ Church",
+      image: "/img/Background.jpg",
+    },
+    {
+      title: "Midweek Bible Studies",
+      time: "Wednesdays | 18:00 -20:00 PM | @ Church",
+      image: "/img/mid-week.jpeg",
+    },
+    {
+      title: "Power Night",
+      time: "Fridays | 18:00 - 20:00 PM | @ Church",
+      image: "/img/power-night.jpeg",
+    },
+    {
+      title: "Youth Meetings",
+      time: "Saturdays | 17:00 - 18:30 PM | @ Church",
+      image: "/img/Background.jpg",
+    },
+    {
+      title: "Fasting And Prayers",
+      time: "Last Week Of Every Month | 18:00 - 20:00 PM each night | @ Church",
+      image: "/img/Background.jpg",
+    },
+    {
+      title: "Thanksgiving Service",
+      time: "Last Sunday Of Each Month | 9:30 - 11:30 PM | @ Church",
+      image: "/img/Background.jpg",
+    },
+  ];
+
   return (
     <main className='h-screen w-full'>
       <section className='relative h-[500px] w-full'>
@@ -38,137 +71,29 @@ export default function Events() {
             </p>
           </div>
           <div className='grid grid-cols-2 md:grid-cols-3 gap-10 mt-8'>
-            <div className='flex flex-col text-left'>
-              <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
-                <a href='#'>
-                  <img
-                    className='rounded-t-lg'
-                    src='/img/Background.jpg'
-                    alt=''
-                  />
-                </a>
-                <div className='p-5'>
+            {events.map((event, i) => (
+              <div key={event.title + i} className='flex flex-col text-left'>
+                <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
                   <a href='#'>
-                    <h5 className='mb-2 text-xl min-h-[84px] md:min-h-0 flex items-center font-bold tracking-tight text-gray-700'>
-                      Spiritual Maintenance Service
-                    </h5>
+                    <img
+                      className='rounded-t-lg w-full object-fill max-h-[255.296875px]'
+                      src={event.image}
+                      alt=''
+                    />
                   </a>
-                  <p className='mb-3 font-normal text-gray-700 md:min-h-[48px]'>
-                    Wednesdays | 9:00 - 11:30 AM | @ Church
-                  </p>
+                  <div className='p-5'>
+                    <a href='#'>
+                      <h5 className='mb-2 text-xl min-h-[84px] md:min-h-0 flex items-center font-bold tracking-tight text-gray-700'>
+                        {event.title}
+                      </h5>
+                    </a>
+                    <p className='mb-3 font-normal text-gray-700 md:min-h-[48px]'>
+                      {event.time}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div className='flex flex-col text-left'>
-              <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
-                <a href='#'>
-                  <img
-                    className='rounded-t-lg'
-                    src='/img/Background.jpg'
-                    alt=''
-                  />
-                </a>
-                <div className='p-5 min-h-[216px] md:min-h-0'>
-                  <a href='#'>
-                    <h5 className='mb-2 text-xl min-h-[84px] md:min-h-0 flex items-center font-bold tracking-tight text-gray-700'>
-                      Midweek Bible Studies
-                    </h5>
-                  </a>
-                  <p className='mb-3 font-normal text-gray-700 md:min-h-[48px]'>
-                    Wednesdays | 18:00 -20:00 PM | @ Church
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='flex flex-col text-left'>
-              <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
-                <a href='#'>
-                  <img
-                    className='rounded-t-lg'
-                    src='/img/Background.jpg'
-                    alt=''
-                  />
-                </a>
-                <div className='p-5 min-h-[216px] md:min-h-0'>
-                  <a href='#'>
-                    <h5 className='mb-2 text-xl min-h-[84px] md:min-h-0 flex items-center font-bold tracking-tight text-gray-700'>
-                      Power Night
-                    </h5>
-                  </a>
-                  <p className='mb-3 font-normal text-gray-700 md:min-h-[48px]'>
-                    Fridays | 18:00 - 20:00 PM | @ Church
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='flex flex-col text-left'>
-              <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
-                <a href='#'>
-                  <img
-                    className='rounded-t-lg'
-                    src='/img/Background.jpg'
-                    alt=''
-                  />
-                </a>
-                <div className='p-5 min-h-[216px] md:min-h-0'>
-                  <a href='#'>
-                    <h5 className='mb-2 text-xl min-h-[84px] md:min-h-0 flex items-center font-bold tracking-tight text-gray-700'>
-                      Youth Meetings
-                    </h5>
-                  </a>
-                  <p className='mb-3 font-normal text-gray-700 md:min-h-[48px]'>
-                    Saturdays | 17:00 - 18:30 PM | @ Church
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='flex flex-col text-left'>
-              <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
-                <a href='#'>
-                  <img
-                    className='rounded-t-lg'
-                    src='/img/Background.jpg'
-                    alt=''
-                  />
-                </a>
-                <div className='p-5 min-h-[216px] md:min-h-0'>
-                  <a href='#'>
-                    <h5 className='mb-2 text-xl min-h-[84px] md:min-h-0 flex items-center font-bold tracking-tight text-gray-700'>
-                      Fasting And Prayers
-                    </h5>
-                  </a>
-                  <p className='mb-3 font-normal text-gray-700 md:min-h-[48px]'>
-                    Last Week Of Every Month | 18:00 - 20:00 PM each night | @
-                    Church
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='flex flex-col text-left'>
-              <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
-                <a href='#'>
-                  <img
-                    className='rounded-t-lg'
-                    src='/img/Background.jpg'
-                    alt=''
-                  />
-                </a>
-                <div className='p-5 min-h-[216px] md:min-h-0'>
-                  <a href='#'>
-                    <h5 className='mb-2 text-xl min-h-[84px] md:min-h-0 flex items-center font-bold tracking-tight text-gray-700'>
-                      Thanksgiving Service
-                    </h5>
-                  </a>
-                  <p className='mb-3 font-normal text-gray-700 md:min-h-[48px]'>
-                    Last Sunday Of Each Month | 9:30 - 11:30 PM | @ Church
-                  </p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
