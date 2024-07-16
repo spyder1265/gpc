@@ -8,7 +8,7 @@ const meta = {
   description:
     "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
 
-  url: "https://www.gracepavilionchapel.com",
+  url: "https://gracepavilionchapel.com",
   ogDescription:
     "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
   image: "/img/logo.jpeg",
@@ -26,9 +26,9 @@ export const metadata = {
   title: "Grace Pavilion Chapel",
   description:
     "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
-  metadataBase: new URL("https://www.gracepavilionchapel.com/"),
+  metadataBase: new URL("https:/gracepavilionchapel.com/"),
   alternates: {
-    canonical: `https://www.gracepavilionchapel.com/`,
+    canonical: `https://gracepavilionchapel.com/`,
   },
   openGraph: {
     title: meta.title,
