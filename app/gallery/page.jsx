@@ -34,10 +34,10 @@ export default function Home() {
       title: "grid7",
       image: "/img/grid7.jpeg",
     },
-    {
-      title: "grid8",
-      image: "/img/grid8.jpeg",
-    },
+    // {
+    //   title: "grid8",
+    //   image: "/img/grid8.jpeg",
+    // },
   ];
   return (
     <div className='min-h-screen w-full'>
