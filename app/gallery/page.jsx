@@ -22,6 +22,22 @@ export default function Home() {
       title: "grid4",
       image: "/img/grid4.jpeg",
     },
+    {
+      title: "grid5",
+      image: "/img/grid5.jpeg",
+    },
+    {
+      title: "grid6",
+      image: "/img/grid6.jpeg",
+    },
+    {
+      title: "grid7",
+      image: "/img/grid7.jpeg",
+    },
+    {
+      title: "grid8",
+      image: "/img/grid8.jpeg",
+    },
   ];
   return (
     <div className='min-h-screen w-full'>
