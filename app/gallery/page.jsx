@@ -5,6 +5,24 @@ import Image from "next/image";
 import Footer from "../../components/Footer";
 
 export default function Home() {
+  const images = [
+    {
+      title: "grid1",
+      image: "/img/grid1.jpeg",
+    },
+    {
+      title: "grid2",
+      image: "/img/grid2.jpeg",
+    },
+    {
+      title: "grid3",
+      image: "/img/grid3.jpeg",
+    },
+    {
+      title: "grid4",
+      image: "/img/grid4.jpeg",
+    },
+  ];
   return (
     <div className='min-h-screen w-full'>
       <div className='relative h-[500px] w-full'>
@@ -30,34 +48,18 @@ export default function Home() {
       </div>
       <section className='flex flex-col w-full h-full items-center justify-center'>
         <div className='grid grid-cols-1 w-full h-full sm:grid-cols-2 gap-4 p-6 bg-gray-100'>
-          <div className='bg-white p-4 rounded-lg shadow-md'>
-            <img
-              src='/img/grid1.jpeg'
-              alt='Drone'
-              className='w-full h-full object-cover rounded-md mb-4'
-            />
-          </div>
-          <div className='bg-white p-4 rounded-lg shadow-md'>
-            <img
-              src='/img/grid2.jpeg'
-              alt='Drone'
-              className='w-full h-full object-cover rounded-md mb-4'
-            />
-          </div>
-          <div className='bg-white p-4 rounded-lg shadow-md'>
-            <img
-              src='/img/grid3.jpeg'
-              alt='Drone'
-              className='w-full h-full object-cover rounded-md mb-4'
-            />
-          </div>
-          <div className='bg-white p-4 rounded-lg shadow-md'>
-            <img
-              src='/img/grid4.jpeg'
-              alt='Drone'
-              className='w-full h-full object-cover rounded-md mb-4'
-            />
-          </div>
+          {images.map((img, i) => (
+            <div
+              key={img.title + i}
+              className='bg-white p-4 rounded-lg shadow-md'
+            >
+              <img
+                src={img.image}
+                alt={img.title}
+                className='w-full h-full object-cover rounded-md mb-4'
+              />
+            </div>
+          ))}
         </div>
       </section>
 
