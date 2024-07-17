@@ -56,12 +56,12 @@ export default function About() {
         <div className='flex flex-col h-full basis-4/6'>
           <div className='flex py-4 justify-center text-center md:pt-24 space-y-1 text-yellowShade'>
             <p className='flex justify-center font-bold text-4xl leading-[46.8px] mb-4 tracking-normal'>
-              welcome to grace pavilion chapel!
+              Welcome To Grace Pavilion Chapel!
             </p>
           </div>
           <div className='flex flex-col text-left mx-10 md:mx-80 gap-5'>
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>
-              who we are
+            Who We Are
             </h1>
             <p className='dark:text-neutral-300'>
               We're thrilled that you've discovered us! at grace pavilion
@@ -69,31 +69,31 @@ export default function About() {
               community of followers of jesus christ. rooted in the belief that
               the essence of the kingdom lies in fostering genuine
               relationships, we prioritize our connection with god and with one
-              another (matthew 22:36-40).
+              another (Matthew 22:36-40).
             </p>
 
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>
-              our vision
+              Our Vision
             </h1>
             <p className='dark:text-neutral-300'>
               Bringing the blind to the knowledge of christ. (2 corinthians 4:4)
             </p>
 
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>
-              our mission
+              Our Mission
             </h1>
 
             <p className='dark:text-neutral-300'>
-              pulling down strong holds, taking territories for christ through
-              the power of his word (the sword of the spirit)
+              Pulling down strong holds, taking territories for Christ through
+              the power of his word (the sword of the spirit).
             </p>
 
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>
-              what to expect
+              What To Expect
             </h1>
 
             <p className='dark:text-neutral-300'>
-              when you walk through our doors, you can expect to encounter a
+              When you walk through our doors, you can expect to encounter a
               warm and welcoming atmosphere, heartfelt worship, and practical,
               relevant teaching from the bible. whether you're joining us for
               one of our sunday services, participating in a small group, or
@@ -102,28 +102,28 @@ export default function About() {
             </p>
 
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>
-              get involved
+              Get Involved
             </h1>
 
             <p className='dark:text-neutral-300'>
-              there are numerous opportunities for you to get involved and
-              become an active part of our church family. from serving on a
-              ministry team to joining a bible study group, there's something
+              There are numerous opportunities for you to get involved and
+              become an active part of our church family.From serving on a
+              ministry team to joining a Bible study group, there's something
               for everyone to contribute their gifts and talents to the work of
-              god's kingdom. we believe that each person has a unique role to
-              play in advancing the cause of christ, and we invite you to
+              God's kingdom. We believe that each person has a unique role to
+              play in advancing the cause of Christ, and we invite you to
               discover yours.
             </p>
 
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>
-              contact us
+              Contact Us
             </h1>
 
             <p className='dark:text-neutral-300'>
-              if you have any questions or would like more information about
-              grace pavilion chapel, please don't hesitate to reach out to us.
-              our friendly staff and volunteers are here to assist you and help
-              you feel at home. we look forward to connecting with you and
+              If you have any questions or would like more information about
+              Grace Pavilion Chapel, please don't hesitate to reach out to us.
+              Our friendly members and volunteers are here to assist you and help
+              you feel at home. We look forward to connecting with you and
               journeying together in faith, hope, and love.
             </p>
           </div>
