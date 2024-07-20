@@ -42,7 +42,7 @@ export default function Home() {
       <section className='flex flex-col w-full min-h-screen md:h-screen items-center justify-center'>
         <div className='flex h-2/3 w-full justify-center overflow-hidden relative'>
           <Image
-            src={"/img/Background.jpg"}
+            src={"/img/bg1.jpg"}
             width={900}
             height={900}
             className='w-full h-full object-cover'
