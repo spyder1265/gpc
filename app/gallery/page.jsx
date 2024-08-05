@@ -43,7 +43,7 @@ export default function Home() {
     <div className='min-h-screen w-full'>
       <div className='relative h-[500px] w-full'>
         <Image
-          src={"/img/trialbg.jpeg"}
+          src={"/img/bg1.jpg"}
           width={900}
           height={900}
           className='w-full h-full object-cover'

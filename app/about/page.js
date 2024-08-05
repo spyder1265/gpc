@@ -7,7 +7,7 @@ export default function About() {
     <main className='h-screen w-full'>
       <section className='relative h-[500px] w-full'>
         <Image
-          src={"/img/trialbg.jpeg"}
+          src={"/img/bg1.jpg"}
           width={900}
           height={900}
           className='w-full h-full object-cover'
@@ -21,7 +21,7 @@ export default function About() {
           </div>
           <div className='md:py-24 py-12 px-6 md:px-16 w-full'>
             <div className='flex flex-col gap-y-1 items-start justify-center text-left h-full'>
-              <h1 className='text-3xl md:text-5xl font-bold'>about</h1>
+              <h1 className='text-3xl md:text-5xl font-bold'>About</h1>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function About() {
           </div>
           <div className='flex flex-col text-left mx-10 md:mx-80 gap-5'>
             <h1 className='flex justify-center text-center space-y-1 text-yellowShade md:text-[20px] font-bold'>
-            Who We Are
+              Who We Are
             </h1>
             <p className='dark:text-neutral-300'>
               We're thrilled that you've discovered us! at grace pavilion
@@ -122,8 +122,8 @@ export default function About() {
             <p className='dark:text-neutral-300'>
               If you have any questions or would like more information about
               Grace Pavilion Chapel, please don't hesitate to reach out to us.
-              Our friendly members and volunteers are here to assist you and help
-              you feel at home. We look forward to connecting with you and
+              Our friendly members and volunteers are here to assist you and
+              help you feel at home. We look forward to connecting with you and
               journeying together in faith, hope, and love.
             </p>
           </div>

@@ -47,7 +47,7 @@ export default function Events() {
     <main className='h-screen w-full'>
       <section className='relative h-[500px] w-full'>
         <Image
-          src={"/img/trialbg.jpeg"}
+          src={"/img/bg1.jpg"}
           width={900}
           height={900}
           className='w-full h-full object-cover'
