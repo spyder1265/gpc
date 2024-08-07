@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <div className='min-h-screen w-full'>
       <div className='relative h-[500px] w-full'>
-        <Image
+        {/* <Image
           src={"/img/bg1.jpg"}
           width={900}
           height={900}
@@ -50,7 +50,7 @@ export default function Home() {
           quality={90}
           alt='bg'
           priority
-        />
+        /> */}
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>
             <Navbar />
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section className='flex flex-col w-full h-full items-center justify-center'>
+      <section className='flex bg-slate-50 flex-col w-full h-full items-center justify-center'>
         <div className='grid grid-cols-1 w-full h-full sm:grid-cols-2 gap-4 p-6 bg-gray-100'>
           {images.map((img, i) => (
             <div
@@ -79,9 +79,8 @@ export default function Home() {
         </div>
       </section>
 
-      <div className=''>
-        <Footer />
-      </div>
+      <div className=''></div>
+      <Footer />
     </div>
   );
 }

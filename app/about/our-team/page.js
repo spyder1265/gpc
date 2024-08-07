@@ -6,7 +6,7 @@ export default function OurTeam() {
   return (
     <main className='h-screen w-full'>
       <section className='relative h-[500px] w-full'>
-        <Image
+        {/* <Image
           src={"/img/bg1.jpg"}
           width={900}
           height={900}
@@ -14,7 +14,7 @@ export default function OurTeam() {
           quality={90}
           alt='bg'
           priority
-        />
+        /> */}
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>
             <Navbar />
@@ -27,7 +27,7 @@ export default function OurTeam() {
         </div>
       </section>
 
-      <section className='flex flex-col w-full items-center justify-center'>
+      <section className='flex flex-col w-full bg-slate-50 items-center justify-center'>
         <div className='flex h-14 w-full bg-yellowShade/80 justify-center items-center overflow-hidden relative'>
           <div className='flex text-white font-semibold'>
             <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
@@ -47,7 +47,7 @@ export default function OurTeam() {
       </section>
 
       <section className=''>
-        <div className='py-8 px-4 mx-auto flex flex-col items-center w-full max-w-screen-xl text-center lg:py-16 lg:px-6'>
+        <div className='py-8 px-4 mx-auto flex bg-slate-50 flex-col items-center w-full max-w-screen-xl text-center lg:py-16 lg:px-6'>
           <div className='mx-auto mb-8 max-w-screen-sm lg:mb-16'>
             <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-yellowShade'>
               Meet Our Team!
@@ -90,9 +90,8 @@ export default function OurTeam() {
           </div>
         </div>
       </section>
-      <div className='mt-20'>
-        <Footer />
-      </div>
+      <div className='pt-20 bg-slate-50'></div>
+      <Footer />
     </main>
   );
 }

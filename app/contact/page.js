@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <main className='h-screen w-full'>
       <section className='relative h-[500px] w-full'>
-        <Image
+        {/* <Image
           src={"/img/bg1.jpg"}
           width={900}
           height={900}
@@ -15,7 +15,7 @@ export default function Contact() {
           quality={90}
           alt='bg'
           priority
-        />
+        /> */}
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>
             <Navbar />
@@ -27,7 +27,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <section className='h-auto py-10 w-full'>
+      <section className='h-auto bg-slate-50 py-10 w-full'>
         <div className='max-w-sm mx-auto'>
           <div className='bg-white shadow-md rounded-md p-6'>
             <h2 className='text-2xl font-bold mb-4'>Location</h2>

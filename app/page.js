@@ -7,8 +7,8 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <main className='h-screen w-full'>
-      <section className='relative h-full w-full'>
-        <Image
+      <section className='relative h-full bg-transparent w-full'>
+        {/* <Image
           src={"/img/bg1.jpg"}
           width={900}
           height={900}
@@ -16,7 +16,7 @@ export default function Home() {
           quality={90}
           alt='bg'
           priority
-        />
+        /> */}
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>
             <Navbar />
@@ -41,13 +41,13 @@ export default function Home() {
       </section>
       <section className='flex flex-col w-full min-h-screen md:h-screen items-center justify-center'>
         <div className='flex h-2/3 w-full justify-center overflow-hidden relative'>
-          <Image
+          {/* <Image
             src={"/img/Background.jpg"}
             width={900}
             height={900}
             className='w-full h-full object-cover'
             alt='bg'
-          />
+          /> */}
           <div className='absolute top-0 bg-yellowShade/75 w-full h-full flex '>
             <div className=' h-full flex basis-1/6 md:basis-2/5'></div>
             <div className='flex h-full basis-4/6'>
@@ -108,9 +108,8 @@ export default function Home() {
         <p>Mark your calendars for these great events coming up.</p>
       </section> */}
 
-      <div className='mt-2'>
-        <Footer />
-      </div>
+      <div className='pt-1 bg-slate-50'></div>
+      <Footer />
     </main>
   );
 }

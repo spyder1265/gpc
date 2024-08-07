@@ -46,7 +46,7 @@ export default function Events() {
   return (
     <main className='h-screen w-full'>
       <section className='relative h-[500px] w-full'>
-        <Image
+        {/* <Image
           src={"/img/bg1.jpg"}
           width={900}
           height={900}
@@ -54,7 +54,7 @@ export default function Events() {
           quality={90}
           alt='bg'
           priority
-        />
+        /> */}
         <div className='absolute top-0 left-0 right-0 flex flex-col justify-between bg-overlay/65 text-white h-full w-full'>
           <div className=''>
             <Navbar />
@@ -67,7 +67,7 @@ export default function Events() {
         </div>
       </section>
 
-      <section className='flex flex-col w-full items-center justify-center'>
+      <section className='flex flex-col w-full bg-slate-50 items-center justify-center'>
         <div className='flex flex-col h-full basis-4/6'>
           <div className='flex flex-col py-4 justify-center text-center md:pt-24 space-y-1 text-gray-700'>
             <h2 className='flex justify-center font-bold text-4xl leading-[46.8px] mb-4 text-yellowShade tracking-normal'>
@@ -108,9 +108,8 @@ export default function Events() {
         </div>
       </section>
 
-      <div className='mt-20'>
-        <Footer />
-      </div>
+      <div className='pt-20 bg-slate-50'></div>
+      <Footer />
     </main>
   );
 }

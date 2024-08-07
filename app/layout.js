@@ -50,7 +50,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className + " dark:bg-neutral-800"}>
+      <body
+        className={
+          inter.className +
+          " bg-youth-img bg-no-repeat bg-cover bg-fixed bg-bottom "
+        }
+      >
         {children}
       </body>
     </html>
