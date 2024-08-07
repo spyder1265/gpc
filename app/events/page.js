@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import Footer from "../../components/Footer";
+import { cn } from "@/lib/utils";
 
 export default function Events() {
   const events = [
@@ -9,7 +10,7 @@ export default function Events() {
       time: "Sundays | 5:30 - 7:00 PM | @ Church",
       image: "/img/meninthegap.jpeg",
       ImageClassName:
-        "rounded-t-lg w-full  object-cover relative object-top max-h-[255.296875px]",
+        "rounded-t-lg w-full object-cover relative object-top max-h-[255.296875px]",
     },
     {
       title: "Spiritual Maintenance Service",
@@ -83,10 +84,10 @@ export default function Events() {
                 <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
                   <a href='#'>
                     <img
-                      className={
-                        event.ImageClassName ||
-                        "rounded-t-lg w-full object-fill max-h-[255.296875px]"
-                      }
+                      className={cn(
+                        "rounded-t-lg w-full object-fill max-h-[255.296875px]",
+                        event.ImageClassName
+                      )}
                       src={event.image}
                       alt=''
                     />
