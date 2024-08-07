@@ -7,7 +7,7 @@ export default function Events() {
     {
       title: "Men in the Gap",
       time: "Sundays | 5:30 - 7:00 PM | @ Church",
-      image: "/img/MenInTheGap.jpeg",
+      image: "/img/meninthegap.jpeg",
       ImageClassName:
         "rounded-t-lg w-full  object-cover relative object-top max-h-[255.296875px]",
     },
