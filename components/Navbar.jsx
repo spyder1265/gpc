@@ -64,7 +64,7 @@ export default function Navbar() {
                 </div>
                 <div className='absolute inset-y-0 right-0 flex items-center lg:hidden'>
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className='relative inline-flex items-center justify-center rounded-md p-2 text-neutral-300 font-semibold hover:opacity-75 focus:outline-none focus:ring-0'>
+                  <Disclosure.Button className='relative inline-flex items-center justify-center rounded-md p-2 text-white font-semibold hover:opacity-75 focus:outline-none focus:ring-0'>
                     <span className='absolute -inset-0.5' />
                     <span className='sr-only'>Open main menu</span>
                     {open ? (

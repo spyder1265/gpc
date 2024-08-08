@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
       <body
         className={
           inter.className +
-          " bg-youth-img bg-no-repeat bg-cover bg-fixed bg-bottom "
+          " bg-youth-img bg-no-repeat background bg-fixed   md:bg-cover md:bg-bottom "
         }
       >
         {children}
