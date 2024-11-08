@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='w-full flex flex-col h-full py-24 md:py-0 bg-overlay md:flex-row gap-y-12 md:gap-36 items-center justify-start text-white'>
+        <div className='w-full flex flex-col h-full py-24 md:py-0 bg-overlay md:flex-row gap-y-12 md:gap-36 items-center justify-evenly text-white'>
           <a href='/about/im-new#service-times' className=''>
             <div className='flex flex-col items-center gap-3'>
               <ClockIcon className='h-14 w-14' />
@@ -98,7 +98,7 @@ export default function Home() {
         <p>Mark your calendars for these great events coming up.</p>
       </section> */}
 
-      <div className='pt-2 bg-slate-50'>
+      <div className='bg-slate-50'>
         <Footer />
       </div>
     </main>
