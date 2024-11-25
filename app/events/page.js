@@ -68,7 +68,7 @@ export default function Events() {
         </div>
       </section>
 
-      <section className='flex flex-col w-full bg-slate-50 items-center justify-center'>
+      <section className='flex flex-col w-full bg-slate-50 items-center justify-center p-5'>
         <div className='flex flex-col h-full basis-4/6'>
           <div className='flex flex-col py-4 justify-center text-center md:pt-24 space-y-1 text-gray-700'>
             <h2 className='flex justify-center font-bold text-4xl leading-[46.8px] mb-4 text-yellowShade tracking-normal'>
@@ -78,7 +78,7 @@ export default function Events() {
               Mark your calendars for these great events coming up
             </p>
           </div>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-10 mt-8'>
+          <div className='grid grid-cols-2 md:grid-cols-3 gap-10 max-md:flex max-md:flex-col mt-8'>
             {events.map((event, i) => (
               <div key={event.title + i} className='flex flex-col text-left'>
                 <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
