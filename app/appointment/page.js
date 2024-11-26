@@ -12,27 +12,18 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import emailjs from "@emailjs/browser";
 
-const premises = [
-  "Main Sanctuary",
-  "Fellowship Hall",
-  "Chapel",
-  "Kitchen",
-  "Classrooms",
-  "Outdoor Space",
-];
-
 const initialFormData = {
   firstName: "",
   lastName: "",
   email: "",
+  phone: "",
   isMember: "",
   date: "",
   time: "",
-  premises: [],
-  reason: "",
+  purpose: "",
 };
 
-export default function Reservation() {
+export default function Appointment() {
   const [formData, setFormData] = useState(initialFormData);
   const [errors, setErrors] = useState({});
 
@@ -49,16 +40,6 @@ export default function Reservation() {
     }));
   };
 
-  const handlePremisesChange = (e) => {
-    const { value, checked } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      premises: checked
-        ? [...prev.premises, value]
-        : prev.premises.filter((item) => item !== value),
-    }));
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -71,13 +52,12 @@ export default function Reservation() {
       }
       newErrors.email = "Email is required.";
     }
+    if (!formData.phone) newErrors.phone = "Phone number is required.";
     if (!formData.isMember)
       newErrors.isMember = "Please select if you're a member.";
     if (!formData.date) newErrors.date = "Date is required.";
     if (!formData.time) newErrors.time = "Time is required.";
-    if (formData.premises.length === 0)
-      newErrors.premises = "Please select at least one premise.";
-    if (!formData.reason) newErrors.reason = "Reason for use is required.";
+    if (!formData.purpose) newErrors.purpose = "Purpose is required.";
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -102,20 +82,20 @@ export default function Reservation() {
           firstName: formData.firstName,
           lastName: formData.lastName,
           email: formData.email,
+          phone: formData.phone,
           isMember: formData.isMember,
           date: formData.date,
           time: formattedTime,
-          premises: formData.premises.join(", "),
-          reason: formData.reason,
+          purpose: formData.purpose,
         },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       );
 
-      toast.success("Reservation submitted successfully!");
+      toast.success("Appointment submitted successfully!");
       setFormData(initialFormData);
     } catch (error) {
       console.error("Error sending email:", error);
-      toast.error("Failed to submit reservation. Please try again.");
+      toast.error("Failed to submit appointment. Please try again.");
     }
     // setFormData(initialFormData);
   };
@@ -130,7 +110,9 @@ export default function Reservation() {
           <Toaster position='top-right' reverseOrder={false} />
           <div className='md:py-24 py-12 px-6 md:px-16 w-full'>
             <div className='flex flex-col gap-y-1 items-start justify-center text-left h-full'>
-              <h1 className='text-3xl md:text-5xl font-bold'>Reservations</h1>
+              <h1 className='text-3xl md:text-5xl font-bold'>
+                Book Appointment
+              </h1>
             </div>
           </div>
         </div>
@@ -139,7 +121,7 @@ export default function Reservation() {
         <Card className='w-full max-w-2xl mx-auto'>
           <CardHeader>
             <CardTitle className='text-center text-2xl font-bold text-greenActive'>
-              Reservations Form
+              Book an Appointment
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -200,6 +182,26 @@ export default function Reservation() {
                 />
                 {errors.email && (
                   <span className='text-red-500'>{errors.email}</span>
+                )}
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='email' className='font-semibold'>
+                  Phone Number <span className='text-red-500'>*</span>
+                </Label>
+                <Input
+                  id='phone'
+                  name='phone'
+                  type='tel'
+                  pattern='[+0-9]{10,15}'
+                  placeholder='+233 123 456 789'
+                  required
+                  className='w-full border-2 focus:border-yellowShade focus:outline-yellowShade'
+                  value={formData.phone}
+                  onChange={handleChange}
+                />
+                {errors.email && (
+                  <span className='text-red-500'>{errors.phone}</span>
                 )}
               </div>
 
@@ -291,51 +293,21 @@ export default function Reservation() {
               </div>
 
               <div className='space-y-2'>
-                <Label className='font-semibold'>
-                  Premises Required{" "}
-                  <span className='font-light italic'>
-                    (Check all that is needed){" "}
-                  </span>
-                  <span className='text-red-500'>*</span>
-                </Label>
-                <div className='grid grid-cols-2 gap-2'>
-                  {premises.map((premise) => (
-                    <div key={premise} className='flex items-center space-x-2'>
-                      <Input
-                        type='checkbox'
-                        id={premise}
-                        name='premises'
-                        value={premise}
-                        className='accent-yellowShade w-4 h-4 border-2 focus:border-yellowShade focus:outline-yellowShade'
-                        onChange={handlePremisesChange}
-                        required={formData.premises.length === 0}
-                        checked={formData.premises.includes(premise)}
-                      />
-                      <Label htmlFor={premise}>{premise}</Label>
-                    </div>
-                  ))}
-                </div>
-                {errors.premise && (
-                  <span className='text-red-500'>{errors.premise}</span>
-                )}
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='reason' className='font-semibold'>
-                  Reason for use <span className='text-red-500'>*</span>
+                <Label htmlFor='purpose' className='font-semibold'>
+                  Purpose <span className='text-red-500'>*</span>
                 </Label>
                 <Textarea
-                  id='reason'
-                  name='reason'
+                  id='purpose'
+                  name='purpose'
                   required
-                  placeholder='A brief description of what you want to use the premises for'
+                  placeholder='Purpose of the appointment'
                   className='w-full border-2 focus:border-yellowShade focus:outline-yellowShade'
                   rows={4}
-                  value={formData.reason}
+                  value={formData.purpose}
                   onChange={handleChange}
                 />
-                {errors.reason && (
-                  <span className='text-red-500'>{errors.reason}</span>
+                {errors.purpose && (
+                  <span className='text-red-500'>{errors.purpose}</span>
                 )}
               </div>
 
