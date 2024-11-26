@@ -27,31 +27,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      {/* <section className='flex flex-col bg-slate-50 w-full items-center justify-center'>
-        <div className='flex h-14 w-full bg-yellowShade/80 justify-center overflow-hidden relative'>
-          <div className='flex text-white font-semibold'>
-            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about'>About Us</a>
-            </div>
-            <div className='hover:bg-yellowShade h-full flex items-center  active:bg-yellowActive'>
-              <a href='/about/our-team' className='py-4 h-full px-2'>
-                Our Team
-              </a>
-            </div>
-            <div className='hover:bg-yellowShade h-full flex items-center  active:bg-yellowActive'>
-              <a href='/about/im-new' className='py-4 h-full px-2'>
-                I'm New
-              </a>
-            </div>
-            <div className='hover:bg-yellowShade h-full flex items-center active:bg-yellowActive'>
-              <a href='/about/our-beliefs' className='py-4 h-full px-2'>
-                Our Beliefs
-              </a>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <AboutNav />
 
       <section className='flex flex-col w-full items-center bg-slate-50 justify-center'>
