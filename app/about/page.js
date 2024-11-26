@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar";
-import Image from "next/image";
+// import Image from "next/image";
+import AboutNav from "@/components/AboutNav";
 import Footer from "../../components/Footer";
 
 export default function About() {
@@ -27,7 +28,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className='flex flex-col bg-slate-50 w-full items-center justify-center'>
+      {/* <section className='flex flex-col bg-slate-50 w-full items-center justify-center'>
         <div className='flex h-14 w-full bg-yellowShade/80 justify-center overflow-hidden relative'>
           <div className='flex text-white font-semibold'>
             <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
@@ -50,7 +51,8 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <AboutNav />
 
       <section className='flex flex-col w-full items-center bg-slate-50 justify-center'>
         <div className='flex flex-col h-full basis-4/6'>
