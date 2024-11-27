@@ -1,5 +1,6 @@
 import Navbar from "../../../components/Navbar";
 import Image from "next/image";
+import AboutNav from "@/components/AboutNav";
 import Footer from "../../../components/Footer";
 
 export default function OurTeam() {
@@ -27,24 +28,7 @@ export default function OurTeam() {
         </div>
       </section>
 
-      <section className='flex flex-col w-full bg-slate-50 items-center justify-center'>
-        <div className='flex h-14 w-full bg-yellowShade/80 justify-center items-center overflow-hidden relative'>
-          <div className='flex text-white font-semibold'>
-            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about'>About Us</a>
-            </div>
-            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about/our-team'>Our Team</a>
-            </div>
-            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about/im-new'>I'm New</a>
-            </div>
-            <div className='hover:bg-yellowShade py-4 px-2 active:bg-yellowActive'>
-              <a href='/about/our-beliefs'>Our Beliefs</a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <AboutNav />
 
       <section className=''>
         <div className='py-8 px-4 mx-auto flex bg-slate-50 flex-col items-center w-full max-w-screen-xl text-center lg:py-16 lg:px-6'>
