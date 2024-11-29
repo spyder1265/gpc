@@ -26,7 +26,7 @@ export function DialogComponent() {
       {/* <DialogTrigger asChild>
         <Button variant='outline'>Edit Profile</Button>
       </DialogTrigger> */}
-      <DialogContent className='sm:max-w-2xl'>
+      <DialogContent className='sm:max-w-2xl p-0'>
         <DialogHeader className='sr-only'>
           <DialogTitle>Edit profile</DialogTitle>
           <DialogDescription>
@@ -34,12 +34,13 @@ export function DialogComponent() {
           </DialogDescription>
         </DialogHeader>
         <Image
-          src={"/public/img/power-night.jpeg"}
+          src={"/img/power-night.jpeg"}
           width={1000}
           height={1000}
-          className='w-full h-full object-cover bg-no-repeat bg-center bg-cover'
+          className='w-full h-full rounded-lg object-cover bg-no-repeat bg-center bg-cover'
           quality={100}
           alt='Advertisment'
+          priority
         />
         {/* <div className='grid gap-4 py-4'>
           <div className='grid grid-cols-4 items-center gap-4'>
