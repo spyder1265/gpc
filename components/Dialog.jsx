@@ -1,18 +1,13 @@
 "use client";
 import { useLayoutEffect, useState } from "react";
-// import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog";
 import Image from "next/image";
-// import { Input } from "@/components/ui/input";
-// import { Label } from "@/components/ui/label";
 
 export function DialogComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,50 +18,28 @@ export function DialogComponent() {
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      {/* <DialogTrigger asChild>
-        <Button variant='outline'>Edit Profile</Button>
-      </DialogTrigger> */}
-      <DialogContent className='sm:max-w-2xl p-0'>
+      <DialogContent className='sm:max-w-2xl p-0 border-none rounded-xl'>
         <DialogHeader className='sr-only'>
-          <DialogTitle>Edit profile</DialogTitle>
+          <DialogTitle>Miracle and Testimony Night</DialogTitle>
           <DialogDescription>
-            Make changes to your profile here. Click save when you're done.
+            Join us for an unforgettable night of miracles, testimonies, and
+            spiritual upliftment hosted by Grace Pavilion Chapel. Featuring
+            Pastor Alvin, this special event will be held at Grace City, Agege
+            Zone 6, on the 31st of December at 8 PM. The theme for the night is
+            'Marvelous God' (Psalms 118:23). Enjoy performances by 'Graceful
+            Soundz' and 'Graceful Jama.' Don't miss this opportunity to
+            celebrate God's wonders in the year-end fellowship.
           </DialogDescription>
         </DialogHeader>
         <Image
-          src={"/img/power-night.jpeg"}
+          src={"/img/miracleAndTestimony.jpg"}
           width={1000}
           height={1000}
           className='w-full h-full rounded-lg object-cover bg-no-repeat bg-center bg-cover'
           quality={100}
-          alt='Advertisment'
+          alt='miracle and tesimomny night image'
           priority
         />
-        {/* <div className='grid gap-4 py-4'>
-          <div className='grid grid-cols-4 items-center gap-4'>
-            <Label htmlFor='name' className='text-right'>
-              Name
-            </Label>
-            <Input
-              id='name'
-              defaultValue='Pedro Duarte'
-              className='col-span-3'
-            />
-          </div>
-          <div className='grid grid-cols-4 items-center gap-4'>
-            <Label htmlFor='username' className='text-right'>
-              Username
-            </Label>
-            <Input
-              id='username'
-              defaultValue='@peduarte'
-              className='col-span-3'
-            />
-          </div>
-        </div> */}
-        {/* <DialogFooter>
-          <Button type='submit'>Save changes</Button>
-        </DialogFooter> */}
       </DialogContent>
     </Dialog>
   );
