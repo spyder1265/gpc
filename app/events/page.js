@@ -15,22 +15,22 @@ export default function Events() {
     {
       title: "Spiritual Maintenance Service",
       time: "Wednesdays | 9:00 - 11:30 AM | @ Church",
-      image: "/img/sms.jpeg",
+      image: "/img/SMS_New.jpeg",
     },
     {
       title: "Midweek Bible Studies",
       time: "Wednesdays | 18:00 -20:00 PM | @ Church",
-      image: "/img/mid-week.jpeg",
+      image: "/img/mid-week.jpg",
     },
     {
       title: "Power Night",
       time: "Fridays | 18:00 - 20:00 PM | @ Church",
-      image: "/img/power-night.jpeg",
+      image: "/img/Power.jpg",
     },
     {
       title: "Youth Meetings",
       time: "Saturdays | 17:00 - 18:30 PM | @ Church",
-      image: "/img/Background.jpg",
+      image: "/img/Youth.jpg",
     },
     {
       title: "Fasting And Prayers",
