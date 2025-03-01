@@ -7,40 +7,40 @@ export default function Events() {
   const events = [
     {
       title: "Men in the Gap",
-      time: "Sundays | 5:30 - 7:00 PM | @ Church",
+      time: "Sundays | 5:30 - 7:00 PM | @ Grace City",
       image: "/img/meninthegap.jpeg",
       ImageClassName:
         "rounded-t-lg w-full object-cover relative object-top max-h-[255.296875px]",
     },
     {
       title: "Spiritual Maintenance Service",
-      time: "Wednesdays | 9:00 - 11:30 AM | @ Church",
-      image: "/img/SMS_New.jpeg",
+      time: "Wednesdays | 10:00 - 12:00  | @ Grace City",
+      image: "/img/SMS_New.jpg",
     },
     {
       title: "Midweek Bible Studies",
-      time: "Wednesdays | 18:00 -20:00 PM | @ Church",
-      image: "/img/mid-week.jpg",
+      time: "Wednesdays | 18:15 -20:00  | @ Grace City",
+      image: "/img/mid-week.jpeg",
     },
     {
       title: "Power Night",
-      time: "Fridays | 18:00 - 20:00 PM | @ Church",
+      time: "Fridays | 18:30 - 20:45  | @ Grace City",
       image: "/img/Power.jpg",
     },
     {
       title: "Youth Meetings",
-      time: "Saturdays | 17:00 - 18:30 PM | @ Church",
+      time: "Saturdays | 16:00 - 17:00  | @ Grace City",
       image: "/img/Youth.jpg",
     },
     {
       title: "Fasting And Prayers",
-      time: "Last Week Of Every Month | 18:00 - 20:00 PM each night | @ Church",
-      image: "/img/Background.jpg",
+      time: "Last Week Of Every Month | 18:00 - 20:00  each night | @ Grace City",
+      image: "/img/Cover.jpg",
     },
     {
       title: "Thanksgiving Service",
-      time: "Last Sunday Of Each Month | 9:30 - 11:30 PM | @ Church",
-      image: "/img/Background.jpg",
+      time: "Last Sunday Of Each Month | 9:30 - 11:30  | @ Grace City",
+      image: "/img/Grace.jpg",
     },
   ];
 

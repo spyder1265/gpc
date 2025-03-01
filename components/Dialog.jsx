@@ -32,7 +32,7 @@ export function DialogComponent() {
           </DialogDescription>
         </DialogHeader>
         <Image
-          src={"/img/miracleAndTestimony.jpg"}
+          src={"/img/Cover_P.jpg"}
           width={1000}
           height={1000}
           className='w-full h-full rounded-lg object-cover bg-no-repeat bg-center bg-cover'
