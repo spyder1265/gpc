@@ -33,9 +33,9 @@ export function DialogComponent() {
         </DialogHeader>
         <Image
           src={"/img/Cover_P.jpg"}
-          width={1000}
+          width={500}
           height={500}
-          className='w-full h-full rounded-lg object-cover bg-no-repeat bg-center bg-cover'
+          className='w-full max-w-full h-auto rounded-lg object-cover bg-no-repeat bg-center'
           quality={100}
           alt='Worship with us'
           priority
