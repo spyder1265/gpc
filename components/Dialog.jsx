@@ -18,7 +18,7 @@ export function DialogComponent() {
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogContent className='sm:max-w-2xl p-0 border-none rounded-xl'>
+      <DialogContent className='max-md:max-w-xs max-w-md p-0 border-none rounded-xl'>
         <DialogHeader className='sr-only'>
           <DialogTitle>Miracle and Testimony Night</DialogTitle>
           <DialogDescription>
