@@ -47,7 +47,7 @@ export default function Contact() {
                 className='text-yellowActive  hover:text-yellowShade'
               >
                 {" "}
-                0551449712
+                +233 24 631 9655
               </a>
             </p>
           </div>
