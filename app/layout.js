@@ -10,7 +10,7 @@ const meta = {
 
   url: "https://gracepavilionchapel.com",
   ogDescription:
-    "We at grace pavilion chapel, we are more than just a congregation; we are a vibrant community of followers of jesus christ.",
+    "At Grace Pavilion Chapel, we are not merely a congregation; we are a dynamic and thriving community of followers of Jesus Christ.",
   image: "/img/logo.jpeg",
   siteName: "Grace Pavilion Church",
   locale: "en_US",
