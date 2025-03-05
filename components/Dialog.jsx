@@ -34,10 +34,10 @@ export function DialogComponent() {
         <Image
           src={"/img/Cover_P.jpg"}
           width={1000}
-          height={1000}
+          height={500}
           className='w-full h-full rounded-lg object-cover bg-no-repeat bg-center bg-cover'
           quality={100}
-          alt='miracle and tesimomny night image'
+          alt='Worship with us'
           priority
         />
       </DialogContent>

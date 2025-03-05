@@ -47,7 +47,19 @@ export default function OurTeam() {
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
                 <a href='#'>Rev. Theophilus S.D Alvin</a>
               </h3>
-              <p className='dark:text-neutral-300'>Head Pastor</p>
+              <p className='dark:text-neutral-300'>General Overseer, Founder</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  <a href='#'>Profile</a>
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  Rev. Theophilus S.D Alvin is a dedicated spiritual leader with
+                  over 18 years of experience in ministry. He is passionate
+                  about community outreach, spiritual growth, and mentoring the
+                  next generation of leaders. His vision is to see lives
+                  transformed through faith and the power of the Holy Spirit.
+                </p>
+              </div>
             </div>
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
@@ -56,10 +68,23 @@ export default function OurTeam() {
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Wonder Hormenu</a>
+                <a href='#'>Ps. Wonder Hormenu</a>
               </h3>
-              <p className='dark:text-neutral-300'>Pastor</p>
+              <p className='dark:text-neutral-300'>Rev. Minister</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  Profile
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  Ps. Wonder is a dedicated spiritual leader with over 18 years
+                  of experience in ministry. He is passionate about community
+                  outreach, spiritual growth, and mentoring the next generation
+                  of leaders. His vision is to see lives transformed through
+                  faith and the power of the Holy Spirit.
+                </p>
+              </div>
             </div>
+
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
                 className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
@@ -69,7 +94,157 @@ export default function OurTeam() {
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
                 <a href='#'>Ikechukwu Onwumelu</a>
               </h3>
+              <p className='dark:text-neutral-300'>Rev. Minister</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  Profile
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  Ps. Ike is a dedicated spiritual leader with over 18 years of
+                  experience in ministry. He is passionate about community
+                  outreach, spiritual growth, and mentoring the next generation
+                  of leaders. His vision is to see lives transformed through
+                  faith and the power of the Holy Spirit.
+                </p>
+              </div>
+            </div>
+            <div className='text-center flex flex-col items-center text-gray-500'>
+              <img
+                className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
+                src='/img/Pastor.jpeg'
+                alt='Helene Avatar'
+              />
+              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
+                <a href='#'>Newton Dablu</a>
+              </h3>
               <p className='dark:text-neutral-300'>Pastor</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  Profile
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  Ps. Newton is a dedicated spiritual leader with over 18 years
+                  of experience in ministry. He is passionate about community
+                  outreach, spiritual growth, and mentoring the next generation
+                  of leaders. His vision is to see lives transformed through
+                  faith and the power of the Holy Spirit.
+                </p>
+              </div>
+            </div>
+            <div className='text-center flex flex-col items-center text-gray-500'>
+              <img
+                className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
+                src='/img/Pastor.jpeg'
+                alt='Helene Avatar'
+              />
+              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
+                <a href='#'>L. P Sharon Addy</a>
+              </h3>
+              <p className='dark:text-neutral-300'>Lady Pastor</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  Profile
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  L. P Sharon is a dedicated spiritual leader with over 18 years
+                  of experience in ministry. He is passionate about community
+                  outreach, spiritual growth, and mentoring the next generation
+                  of leaders. His vision is to see lives transformed through
+                  faith and the power of the Holy Spirit.
+                </p>
+              </div>
+            </div>
+            <div className='text-center flex flex-col items-center text-gray-500'>
+              <img
+                className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
+                src='/img/Pastor.jpeg'
+                alt='Helene Avatar'
+              />
+              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
+                <a href='#'>Nana Baffour Akoto Esq.</a>
+              </h3>
+              <p className='dark:text-neutral-300'>Pastor</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  Profile
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  Ps. Baffour is a dedicated spiritual leader with over 18 years
+                  of experience in ministry. He is passionate about community
+                  outreach, spiritual growth, and mentoring the next generation
+                  of leaders. His vision is to see lives transformed through
+                  faith and the power of the Holy Spirit.
+                </p>
+              </div>
+            </div>
+            <div className='text-center flex flex-col items-center text-gray-500'>
+              <img
+                className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
+                src='/img/Pastor.jpeg'
+                alt='Helene Avatar'
+              />
+              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
+                <a href='#'>Ebenezer Ameyaw</a>
+              </h3>
+              <p className='dark:text-neutral-300'>Pastor</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  Profile
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  Ps. Ameyaw is a dedicated spiritual leader with over 18 years
+                  of experience in ministry. He is passionate about community
+                  outreach, spiritual growth, and mentoring the next generation
+                  of leaders. His vision is to see lives transformed through
+                  faith and the power of the Holy Spirit.
+                </p>
+              </div>
+            </div>
+            <div className='text-center flex flex-col items-center text-gray-500'>
+              <img
+                className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
+                src='/img/Pastor.jpeg'
+                alt='Helene Avatar'
+              />
+              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
+                <a href='#'>Bridget.</a>
+              </h3>
+              <p className='dark:text-neutral-300'>Lady Pastor</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  Profile
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  L. P Bridget is a dedicated spiritual leader with over 18
+                  years of experience in ministry. He is passionate about
+                  community outreach, spiritual growth, and mentoring the next
+                  generation of leaders. His vision is to see lives transformed
+                  through faith and the power of the Holy Spirit.
+                </p>
+              </div>
+            </div>
+            <div className='text-center flex flex-col items-center text-gray-500'>
+              <img
+                className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
+                src='/img/Pastor.jpeg'
+                alt='Helene Avatar'
+              />
+              <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
+                <a href='#'>Rita XXXXX</a>
+              </h3>
+              <p className='dark:text-neutral-300'> Lady Pastor</p>
+              <div className='profile-section mt-4 text-center'>
+                <h4 className='text-xl font-semibold text-gray-600 dark:text-neutral-300'>
+                  Profile
+                </h4>
+                <p className='text-gray-600 dark:text-neutral-300'>
+                  L. P Rita is a dedicated spiritual leader with over 18 years
+                  of experience in ministry. He is passionate about community
+                  outreach, spiritual growth, and mentoring the next generation
+                  of leaders. His vision is to see lives transformed through
+                  faith and the power of the Holy Spirit.
+                </p>
+              </div>
             </div>
           </div>
         </div>
