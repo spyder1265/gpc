@@ -43,7 +43,7 @@ export default function Contact() {
             <p className='mb-4'>
               For more enquires/prayer, call us on{" "}
               <a
-                href='tel:+233551449712'
+                href='tel:+233 24 631 9655'
                 className='text-yellowActive  hover:text-yellowShade'
               >
                 {" "}
