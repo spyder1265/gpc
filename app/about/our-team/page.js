@@ -68,7 +68,7 @@ export default function OurTeam() {
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Ps. Wonder Hormenu</a>
+                <a href='#'>Ps. Hormenu Wonder Joseph Kwaku</a>
               </h3>
               <p className='dark:text-neutral-300'>Rev. Minister</p>
               <div className='profile-section mt-4 text-center'>
@@ -76,11 +76,19 @@ export default function OurTeam() {
                   Profile
                 </h4>
                 <p className='text-gray-600 dark:text-neutral-300'>
-                  Ps. Wonder is a dedicated spiritual leader with over 18 years
-                  of experience in ministry. He is passionate about community
-                  outreach, spiritual growth, and mentoring the next generation
-                  of leaders. His vision is to see lives transformed through
-                  faith and the power of the Holy Spirit.
+                  Ps. Hormenu Wonder Joseph Kwaku, affectionately known as
+                  Pastor Wonder, was born in Accra, Ghana, and is deeply
+                  passionate about reading and research, which fuel his personal
+                  and professional growth. He holds a degree in Biology from
+                  Kwame Nkrumah University of Science and Technology (KNUST) and
+                  works as a Lab Assistant at Link Medical Laboratory,
+                  contributing to community health. Wonder has also gained
+                  valuable experience at Word Temple Educational Centre. A
+                  committed member of Grace Pavilion Chapel since 2013, he
+                  serves as a praises leader, youth pastor/president, evangelism
+                  head, and prayer warrior leader. His dedication and skills
+                  position him to create a lasting impact in both his field and
+                  community.
                 </p>
               </div>
             </div>
@@ -92,7 +100,7 @@ export default function OurTeam() {
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Ikechukwu Onwumelu</a>
+                <a href='#'>Ps. Ikechukwu Onwumelu</a>
               </h3>
               <p className='dark:text-neutral-300'>Rev. Minister</p>
               <div className='profile-section mt-4 text-center'>
@@ -100,18 +108,27 @@ export default function OurTeam() {
                   Profile
                 </h4>
                 <p className='text-gray-600 dark:text-neutral-300'>
-                  Ps. Ike is a dedicated spiritual leader with over 18 years of
-                  experience in ministry. He is passionate about community
-                  outreach, spiritual growth, and mentoring the next generation
-                  of leaders. His vision is to see lives transformed through
-                  faith and the power of the Holy Spirit.
+                  Ps. Ikechukwu Onwumelu, fondly known as Pastor Ike, was born
+                  on March 7 in Lagos, Nigeria, and studied Accountancy at the
+                  University of Nigeria Nsukka. Avidly passionate about
+                  football, reading, and traveling, he enriches his perspectives
+                  through these activities. Since joining Grace Pavilion Chapel
+                  in 2018, he has served as a prayer warrior leader, pastor in
+                  charge of the choir and special programs, and personal
+                  assistant to the pastor. In his professional life, Ikechukwu
+                  is a successful businessman with previous roles as an
+                  accountant and marketing manager at GB Murphy Ltd. and
+                  valuable experience at Nickline Oil and Gas Marketing Company.
+                  His dedication to integrity, excellence, and innovation
+                  highlights his remarkable journey in both ministry and
+                  business.
                 </p>
               </div>
             </div>
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
                 className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
-                src='/img/Pastor.jpeg'
+                src='/img/Newton.jpeg'
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
@@ -123,22 +140,29 @@ export default function OurTeam() {
                   Profile
                 </h4>
                 <p className='text-gray-600 dark:text-neutral-300'>
-                  Ps. Newton is a dedicated spiritual leader with over 18 years
-                  of experience in ministry. He is passionate about community
-                  outreach, spiritual growth, and mentoring the next generation
-                  of leaders. His vision is to see lives transformed through
-                  faith and the power of the Holy Spirit.
+                  Ps. Newton Dablu, born on April 27 in Abor, Volta Region, is a
+                  motivated professional with a Computer Science degree from
+                  Accra Technical University and a Diploma in Management
+                  Information Systems from ALISON. He has worked at the
+                  University of Professional Studies and Access Bank (Ghana)
+                  Plc, excelling in Agency Banking and Sales. A dedicated member
+                  of Grace Pavilion Chapel since 2018, Newton serves in various
+                  roles, including choir leader and personal aide to the pastor.
+                  He combines his passion for music and running with a focus on
+                  personal and professional growth. Newton’s commitment to
+                  excellence and community involvement marks him as a promising
+                  individual in all his endeavors.
                 </p>
               </div>
             </div>
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
                 className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
-                src='/img/Pastor.jpeg'
+                src='/img/Newton.jpeg'
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>L. P Sharon Addy</a>
+                <a href='#'>Sharon Addy</a>
               </h3>
               <p className='dark:text-neutral-300'>Lady Pastor</p>
               <div className='profile-section mt-4 text-center'>
@@ -146,11 +170,19 @@ export default function OurTeam() {
                   Profile
                 </h4>
                 <p className='text-gray-600 dark:text-neutral-300'>
-                  L. P Sharon is a dedicated spiritual leader with over 18 years
-                  of experience in ministry. He is passionate about community
-                  outreach, spiritual growth, and mentoring the next generation
-                  of leaders. His vision is to see lives transformed through
-                  faith and the power of the Holy Spirit.
+                  Lady Pastor Sharon Nana Nkrumah Addy, known as Shady, is a
+                  driven professional with a Bachelor's degree in Administration
+                  (Accounting major) from Central University. She has held
+                  leadership roles such as Prayer Director of the Levite
+                  Generation and Head of the Pillars of the Temple group,
+                  highlighting her commitment to spiritual growth and community
+                  impact. With work experience at National Investment Bank,
+                  Access Bank, and currently Fidelity Bank as a customer service
+                  officer, she blends professionalism with a heart for service.
+                  Sharon's faith, creativity, and dedication to uplifting others
+                  make her an inspiring force in both her career and community.
+                  She balances this with a passion for fostering unity and
+                  growth through prayer and artistic pursuits.
                 </p>
               </div>
             </div>
@@ -169,18 +201,25 @@ export default function OurTeam() {
                   Profile
                 </h4>
                 <p className='text-gray-600 dark:text-neutral-300'>
-                  Ps. Baffour is a dedicated spiritual leader with over 18 years
-                  of experience in ministry. He is passionate about community
-                  outreach, spiritual growth, and mentoring the next generation
-                  of leaders. His vision is to see lives transformed through
-                  faith and the power of the Holy Spirit.
+                  Ps. Nana Baffour Akoto, a dedicated legal practitioner,
+                  studied Law at the University of Professional Studies, Accra
+                  (UPSA) and gained experience interning at the Attorney
+                  General’s Office and Accra High Court. Currently, at Ghartey
+                  and Ghartey, he demonstrates a strong passion and commitment
+                  to his work. He has been actively involved in this ministry
+                  since 2016, serving as Youth President, choir member, Prayer
+                  Warrior, and more, showcasing his devotion to faith and
+                  community service. Nana also enjoys reading and sports,
+                  striking a balance between personal development and
+                  relaxation. His determination and hard work position him as a
+                  valuable contributor to any environment.
                 </p>
               </div>
             </div>
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
                 className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
-                src='/img/Pastor.jpeg'
+                src='/img/Ameyaw.jpg'
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
@@ -192,22 +231,28 @@ export default function OurTeam() {
                   Profile
                 </h4>
                 <p className='text-gray-600 dark:text-neutral-300'>
-                  Ps. Ameyaw is a dedicated spiritual leader with over 18 years
-                  of experience in ministry. He is passionate about community
-                  outreach, spiritual growth, and mentoring the next generation
-                  of leaders. His vision is to see lives transformed through
-                  faith and the power of the Holy Spirit.
+                  Ps. Ebenezer Ameyaw, fondly called "The Great," was born on
+                  July 7 in Bogoso, Western Region of Ghana. A creative
+                  individual, he is passionate about singing and football, which
+                  have shaped his character and fostered community engagement.
+                  Active in Grace Pavilion Chapel, Ebenezer serves as a choir
+                  member, sanctuary cleaner, and prayer warrior, reflecting his
+                  commitment to faith and service. His journey includes
+                  participating in Agyapa TV’s “look alike show” as a singer,
+                  showcasing his talents. With his dedication to touching lives
+                  through music, sports, and leadership, Ebenezer continues to
+                  inspire those around him.
                 </p>
               </div>
             </div>
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
                 className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
-                src='/img/Pastor.jpeg'
+                src='/img/Ameyaw.jpg'
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Bridget.</a>
+                <a href='#'>Bridget Dodoo</a>
               </h3>
               <p className='dark:text-neutral-300'>Lady Pastor</p>
               <div className='profile-section mt-4 text-center'>
@@ -215,22 +260,29 @@ export default function OurTeam() {
                   Profile
                 </h4>
                 <p className='text-gray-600 dark:text-neutral-300'>
-                  L. P Bridget is a dedicated spiritual leader with over 18
-                  years of experience in ministry. He is passionate about
-                  community outreach, spiritual growth, and mentoring the next
-                  generation of leaders. His vision is to see lives transformed
-                  through faith and the power of the Holy Spirit.
+                  Lady Pastor Bridgette Dodoo, also known as Busy Bee, was born
+                  on September 3 in Accra, Ghana, and holds a Bachelor of
+                  Science in Marketing from the University of Cape Coast. She
+                  serves as an Assistant Civic Education Officer with the
+                  National Commission for Civic Education (NCCE), promoting
+                  awareness of civic rights and responsibilities. A dedicated
+                  member of Grace Pavilion Chapel, she has served as Prayer
+                  Warrior Secretary and is currently the Prayer Warrior
+                  Director. Bridgette finds joy in reading, writing, and
+                  cooking, reflecting her creativity and passion for growth. Her
+                  leadership and commitment position her as a positive force in
+                  her community.
                 </p>
               </div>
             </div>
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
                 className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
-                src='/img/Pastor.jpeg'
+                src='/img/Rita.jpeg'
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
-                <a href='#'>Rita XXXXX</a>
+                <a href='#'>Rita Quarshie</a>
               </h3>
               <p className='dark:text-neutral-300'> Lady Pastor</p>
               <div className='profile-section mt-4 text-center'>
@@ -238,11 +290,17 @@ export default function OurTeam() {
                   Profile
                 </h4>
                 <p className='text-gray-600 dark:text-neutral-300'>
-                  L. P Rita is a dedicated spiritual leader with over 18 years
-                  of experience in ministry. He is passionate about community
-                  outreach, spiritual growth, and mentoring the next generation
-                  of leaders. His vision is to see lives transformed through
-                  faith and the power of the Holy Spirit.
+                  Lady Pastor Rita Quarshie, born on October 20 in Nigeria, is a
+                  dedicated professional with a degree in Human Resource
+                  Management from All Nations University. As the Human Resource
+                  Manager at Korle Bu Teaching Hospital, she fosters a
+                  productive work environment while enhancing employee welfare.
+                  Her diverse experience includes roles at the Road Safety
+                  Commission and Glico Life Insurance. A committed member of her
+                  ministry, Rita serves faithfully as a prayer warrior,
+                  balancing her career with her spiritual devotion. Her passion
+                  for positive change and personal growth defines her impactful
+                  journey.
                 </p>
               </div>
             </div>
