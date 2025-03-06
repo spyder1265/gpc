@@ -40,12 +40,12 @@ export default function Events() {
     {
       title: "Fasting And Prayers",
       time: "Last Week Of Every Month | 18:00 - 20:00  each night | @ Grace City",
-      image: "/img/Cover.jpg",
+      image: "/img/3Days.jpeg",
     },
     {
       title: "Thanksgiving Service",
       time: "Last Sunday Of Each Month | 9:30 - 11:30  | @ Grace City",
-      image: "/img/Grace.jpg",
+      image: "/img/Communion.jpeg",
     },
   ];
 
