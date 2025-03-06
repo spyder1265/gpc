@@ -37,7 +37,8 @@ export default function OurTeam() {
               Meet Our Team!
             </h2>
           </div>
-          <div className='grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3'>
+          {/* <div className='grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3'> */}
+          <div className='flex flex-col gap-8 lg:gap-16 px-20'>
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
                 className='mx-auto mb-4 w-36 object-cover h-36 rounded-full'
