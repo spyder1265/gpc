@@ -6,13 +6,6 @@ import { cn } from "@/lib/utils";
 export default function Events() {
   const events = [
     {
-      title: "Men in the Gap",
-      time: "Sundays | 5:30 - 7:00 PM | @ Grace City",
-      image: "/img/meninthegap.jpeg",
-      ImageClassName:
-        "rounded-t-lg w-full object-cover relative object-top max-h-[255.296875px]",
-    },
-    {
       title: "Spiritual Maintenance Service",
       time: "Wednesdays | 10:00 - 12:00  | @ Grace City",
       image: "/img/SMS_New.jpg",
@@ -25,12 +18,24 @@ export default function Events() {
     {
       title: "Power Night",
       time: "Fridays | 18:30 - 20:45  | @ Grace City",
-      image: "/img/Power.jpg",
+      image: "/img/Power-Night.jpeg",
     },
     {
       title: "Youth Meetings",
       time: "Saturdays | 16:00 - 17:00  | @ Grace City",
       image: "/img/Youth.jpg",
+    },
+    {
+      title: "Glorious Service",
+      time: "First Service | 07:00 - 09:00 | Second Service |09:00-11:03 | @ Grace City",
+      image: "/img/Glorious-Service.jpeg",
+    },
+    {
+      title: "Men in the Gap",
+      time: "Sundays | 5:30 - 7:00 PM | @ Grace City",
+      image: "/img/meninthegap.jpeg",
+      ImageClassName:
+        "rounded-t-lg w-full object-cover relative object-top max-h-[255.296875px]",
     },
     {
       title: "Fasting And Prayers",
