@@ -18,7 +18,7 @@ export default function Events() {
     {
       title: "Power Night",
       time: "Fridays | 18:30 - 20:45  | @ Grace City",
-      image: "/img/Power-Night.jpeg",
+      image: "/img/P_Night.jpeg",
     },
     {
       title: "Youth Meetings",
