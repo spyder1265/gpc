@@ -26,7 +26,7 @@ export default function Events() {
       image: "/img/Youth.jpg",
     },
     {
-      title: "Glorious Service",
+      title: "Glorious Service Hour",
       time: "First Service | 07:00 - 09:00 | Second Service |09:00-11:03 | @ Grace City",
       image: "/img/Glorious-Service.jpeg",
     },
