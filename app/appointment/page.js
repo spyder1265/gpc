@@ -46,11 +46,8 @@ export default function Appointment() {
     const newErrors = {};
     if (!formData.firstName) newErrors.firstName = "First Name is required.";
     if (!formData.lastName) newErrors.lastName = "Last Name is required.";
-    if (!formData.email) {
-      if (validateEmail(formData.email)) {
-        newErrors.email = "Please enter a valid email address.";
-      }
-      newErrors.email = "Email is required.";
+    if (formData.email && !validateEmail(formData.email)) {
+      newErrors.email = "Please enter a valid email address.";
     }
     if (!formData.phone) newErrors.phone = "Phone number is required.";
     if (!formData.isMember)
@@ -68,7 +65,7 @@ export default function Appointment() {
     const convertTo12HourFormat = (time24) => {
       const [hours, minutes] = time24.split(":").map(Number);
       const period = hours >= 12 ? "pm" : "am";
-      const hours12 = hours % 12 || 12; // Convert "0" hours to "12" for 12 AM/PM
+      const hours12 = hours % 12 || 12;
       return `${hours12}:${minutes.toString().padStart(2, "0")} ${period}`;
     };
     const formattedTime = convertTo12HourFormat(timeValue);
@@ -81,7 +78,7 @@ export default function Appointment() {
         {
           firstName: formData.firstName,
           lastName: formData.lastName,
-          email: formData.email,
+          email: formData.email || "Not Provided",
           phone: formData.phone,
           isMember: formData.isMember,
           date: formData.date,
@@ -168,14 +165,15 @@ export default function Appointment() {
 
               <div className='space-y-2'>
                 <Label htmlFor='email' className='font-semibold'>
-                  Email <span className='text-red-500'>*</span>
+                  Email
+                  {/* <span className='text-red-500'>*</span> */}
                 </Label>
                 <Input
                   id='email'
                   name='email'
                   type='email'
                   placeholder='name@example.com'
-                  required
+                  // required
                   className='w-full border-2 focus:border-yellowShade focus:outline-yellowShade'
                   value={formData.email}
                   onChange={handleChange}
