@@ -41,7 +41,7 @@ export default function Contact() {
             </Link>
             <h2 className='text-2xl font-bold mb-4'>Contact</h2>
             <p className='mb-4'>
-              For more enquires/prayer, call us on{" "}
+              For more enquires/prayer, call us on: <br />
               <a
                 href='tel:+233 24 631 9655'
                 className='text-yellowActive  hover:text-yellowShade'
