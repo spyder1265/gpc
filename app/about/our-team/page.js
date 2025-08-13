@@ -261,7 +261,7 @@ export default function OurTeam() {
             <div className='text-center flex flex-col items-center text-gray-500'>
               <img
                 className='mx-auto mb-4 w-36 h-36 object-cover rounded-full'
-                src='/img/bg1.jpg'
+                src='/img/Brigitte.jpeg'
                 alt='Helene Avatar'
               />
               <h3 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-neutral-50'>
