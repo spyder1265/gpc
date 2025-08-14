@@ -27,7 +27,7 @@ export function DialogComponent() {
             Pastor Alvin, this special event will be held at Grace City, Agege
             Zone 6, on the 31st of December at 8 PM. The theme for the night is
             'Marvelous God' (Psalms 118:23). Enjoy performances by 'Graceful
-            Soundz' and 'Graceful Jama.' Don't miss this opportunity to
+            Sounds' and 'Graceful Jama.' Don't miss this opportunity to
             celebrate God's wonders in the year-end fellowship.
           </DialogDescription>
         </DialogHeader>
