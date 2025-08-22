@@ -50,7 +50,7 @@ const Footer = () => {
             <ul className='text-gray-400 dark:text-gray-400 font-medium'>
               <li className='mb-4'>
                 <a
-                  href='https://www.facebook.com/share/37KLivCdEoTL8kn8/?mibextid=JRoKGi'
+                  href='https://web.facebook.com/?_rdc=1&_rdr#'
                   className='hover:underline'
                 >
                   Facebook
@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
               <li className='mb-4'>
                 <a
-                  href='https://www.youtube.com/@gracepavilionchapel1632'
+                  href='https://www.youtube.com/@GracePavilionChapel'
                   className='hover:underline'
                 >
                   YouTube
