@@ -45,7 +45,12 @@ export default function Events() {
     {
       title: "Thanksgiving Service",
       time: "Last Sunday Of Each Month | 9:30 - 11:30  | @ Grace City",
-      image: "/img/Communion.jpeg",
+      image: "/img/Thanks.jpg",
+    },
+    {
+      title: "Communion And Anointing Service",
+      time: "First Sunday Of Each Month | 9:30 - 11:30  | @ Grace City",
+      image: "/img/COM.png",
     },
   ];
 
